@@ -63,9 +63,22 @@ export const ZoneMonitoringPage: React.FC = () => {
       <div className="bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900 text-rose-800 dark:text-rose-200 p-6 rounded-2xl">
         <h3 className="font-bold text-base">Error Loading Zone Telemetry</h3>
         <p className="text-sm mt-1">{error}</p>
-        <button onClick={fetchZones} className="mt-4 px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold">
-          Retry
-        </button>
+        <div className="flex gap-3 mt-4">
+          <button onClick={fetchZones} className="px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold hover:bg-rose-700 transition">
+            Retry Connection
+          </button>
+          <button
+            onClick={() => {
+              import('../services/fallbackService').then((m) => {
+                setData(m.fallbackService.getZoneAnalytics());
+                setError(null);
+              });
+            }}
+            className="px-4 py-2 bg-slate-800 text-white rounded-xl text-xs font-semibold hover:bg-slate-700 transition"
+          >
+            Load Municipal Baseline
+          </button>
+        </div>
       </div>
     );
   }

@@ -25,10 +25,13 @@ import {
   Moon,
   Bot,
   Scale,
-  FileText
+  FileText,
+  Cloud,
+  Server
 } from 'lucide-react';
-import { api, getNotifications } from '../services/api';
+import { api, getNotifications, getApiStatus, subscribeApiStatus, ApiConnectionStatus } from '../services/api';
 import { useTheme } from '../context/ThemeContext';
+import { BackendConfigModal } from '../components/BackendConfigModal';
 
 interface NavGroup {
   group: string;
@@ -80,10 +83,17 @@ export const MainLayout: React.FC = () => {
   const [showNotifications, setShowNotifications] = useState(false);
   const [unreadCount, setUnreadCount] = useState(0);
   const [recentNotifs, setRecentNotifs] = useState<any[]>([]);
+  const [configModalOpen, setConfigModalOpen] = useState(false);
+  const [apiStatus, setApiStatus] = useState<ApiConnectionStatus>(getApiStatus());
 
   const { theme, toggleTheme } = useTheme();
   const location = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const unsub = subscribeApiStatus((s) => setApiStatus(s));
+    return () => unsub();
+  }, []);
 
   const todayFormatted = new Intl.DateTimeFormat('en-US', {
     weekday: 'short',
@@ -237,13 +247,24 @@ export const MainLayout: React.FC = () => {
 
         {/* System Tagline Footer */}
         {!collapsed && (
-          <div className="p-3 m-3 rounded-xl bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-slate-800 dark:to-blue-950/40 border border-cyan-100 dark:border-slate-800">
-            <div className="flex items-center gap-2 text-cyan-800 dark:text-cyan-300 text-[11px] font-bold">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
-              </span>
-              <span>Online Telemetry Active</span>
+          <div 
+            onClick={() => setConfigModalOpen(true)}
+            className="p-3 m-3 rounded-xl bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-slate-800 dark:to-blue-950/40 border border-cyan-100 dark:border-slate-800 cursor-pointer hover:border-cyan-300 dark:hover:border-cyan-700 transition"
+            title="Click to configure backend API connectivity"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 text-cyan-800 dark:text-cyan-300 text-[11px] font-bold">
+                <span className="relative flex h-2 w-2">
+                  <span className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${
+                    apiStatus === 'ONLINE_LIVE' ? 'bg-emerald-400' : 'bg-cyan-400'
+                  }`}></span>
+                  <span className={`relative inline-flex rounded-full h-2 w-2 ${
+                    apiStatus === 'ONLINE_LIVE' ? 'bg-emerald-500' : 'bg-cyan-500'
+                  }`}></span>
+                </span>
+                <span>{apiStatus === 'ONLINE_LIVE' ? 'Live Cloud API' : 'Municipal Telemetry Active'}</span>
+              </div>
+              <Cloud className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" />
             </div>
             <p className="text-[10px] text-slate-500 dark:text-slate-400 mt-1 leading-snug">
               "Transforming Water Data into Smarter Decisions."
@@ -293,6 +314,21 @@ export const MainLayout: React.FC = () => {
                 className="w-52 lg:w-64 pl-9 pr-4 py-1.5 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-500 transition-all placeholder-slate-400"
               />
             </form>
+
+            {/* API Connection Indicator & Configuration Button */}
+            <button
+              onClick={() => setConfigModalOpen(true)}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs font-semibold hover:border-cyan-400 dark:hover:border-cyan-600 transition"
+              title="Configure Live Backend API"
+            >
+              <span className={`w-2 h-2 rounded-full ${
+                apiStatus === 'ONLINE_LIVE' ? 'bg-emerald-500 animate-pulse' : 'bg-cyan-500'
+              }`} />
+              <span className="hidden sm:inline text-slate-700 dark:text-slate-300 text-[11px]">
+                {apiStatus === 'ONLINE_LIVE' ? 'Cloud API' : 'Dataset Telemetry'}
+              </span>
+              <Cloud className="w-3.5 h-3.5 text-slate-400" />
+            </button>
 
             {/* Current Date Badge */}
             <div className="hidden xl:flex items-center px-3 py-1.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-600 dark:text-slate-300">
@@ -393,6 +429,9 @@ export const MainLayout: React.FC = () => {
         <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8">
           <Outlet />
         </main>
+
+        {/* Backend Configuration Modal */}
+        <BackendConfigModal isOpen={configModalOpen} onClose={() => setConfigModalOpen(false)} />
       </div>
     </div>
   );

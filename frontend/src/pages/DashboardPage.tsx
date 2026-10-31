@@ -102,12 +102,25 @@ export const DashboardPage: React.FC = () => {
           Dashboard Synchronization Error
         </h3>
         <p className="text-sm mt-1">{error || 'An unexpected error occurred.'}</p>
-        <button
-          onClick={fetchSummary}
-          className="mt-4 px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold hover:bg-rose-700 transition"
-        >
-          Retry Connection
-        </button>
+        <div className="flex gap-3 mt-4">
+          <button
+            onClick={fetchSummary}
+            className="px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold hover:bg-rose-700 transition"
+          >
+            Retry Connection
+          </button>
+          <button
+            onClick={() => {
+              import('../services/fallbackService').then((m) => {
+                setData(m.fallbackService.getDashboardSummary());
+                setError(null);
+              });
+            }}
+            className="px-4 py-2 bg-slate-800 text-white rounded-xl text-xs font-semibold hover:bg-slate-700 transition"
+          >
+            Load Municipal Baseline
+          </button>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,3867 @@
+{
+  "dashboard": {
+    "kpis": {
+      "total_water_consumption_mld": 1040323.95,
+      "total_water_supply_mld": 1061694.72,
+      "predicted_next_day_demand_mld": 1040342.5,
+      "average_reservoir_level_percent": 70.36,
+      "highest_consumption_zone": "Zone A",
+      "highest_consumption_zone_mld": 293765.43,
+      "highest_consumption_sector": "Agriculture",
+      "highest_consumption_sector_mld": 394878.16,
+      "net_water_balance_mld": 21370.77,
+      "water_loss_estimate_percent": 2.01
+    },
+    "consumption_trend_daily": [
+      {
+        "date": "2026-01-02",
+        "consumption": 2513.99,
+        "supply": 2607.55,
+        "predicted_demand": 2509.75,
+        "temperature": 13.0,
+        "reservoir_level": 73.6
+      },
+      {
+        "date": "2026-01-06",
+        "consumption": 2572.67,
+        "supply": 2639.91,
+        "predicted_demand": 2579.97,
+        "temperature": 17.1,
+        "reservoir_level": 68.6
+      },
+      {
+        "date": "2026-01-10",
+        "consumption": 2502.95,
+        "supply": 2549.17,
+        "predicted_demand": 2510.74,
+        "temperature": 15.0,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-01-14",
+        "consumption": 2569.07,
+        "supply": 2621.08,
+        "predicted_demand": 2630.05,
+        "temperature": 14.7,
+        "reservoir_level": 70.1
+      },
+      {
+        "date": "2026-01-18",
+        "consumption": 2494.16,
+        "supply": 2562.97,
+        "predicted_demand": 2552.24,
+        "temperature": 13.4,
+        "reservoir_level": 74.6
+      },
+      {
+        "date": "2026-01-22",
+        "consumption": 2586.85,
+        "supply": 2629.19,
+        "predicted_demand": 2566.81,
+        "temperature": 14.8,
+        "reservoir_level": 71.7
+      },
+      {
+        "date": "2026-01-26",
+        "consumption": 2534.3,
+        "supply": 2597.83,
+        "predicted_demand": 2620.66,
+        "temperature": 13.4,
+        "reservoir_level": 67.7
+      },
+      {
+        "date": "2026-01-30",
+        "consumption": 2661.46,
+        "supply": 2718.51,
+        "predicted_demand": 2558.5,
+        "temperature": 14.2,
+        "reservoir_level": 74.3
+      },
+      {
+        "date": "2026-02-03",
+        "consumption": 2573.79,
+        "supply": 2608.43,
+        "predicted_demand": 2665.08,
+        "temperature": 13.2,
+        "reservoir_level": 71.4
+      },
+      {
+        "date": "2026-02-07",
+        "consumption": 2556.99,
+        "supply": 2598.17,
+        "predicted_demand": 2595.39,
+        "temperature": 17.0,
+        "reservoir_level": 70.5
+      },
+      {
+        "date": "2026-02-11",
+        "consumption": 2632.82,
+        "supply": 2685.61,
+        "predicted_demand": 2647.28,
+        "temperature": 17.5,
+        "reservoir_level": 71.0
+      },
+      {
+        "date": "2026-02-15",
+        "consumption": 2583.09,
+        "supply": 2608.11,
+        "predicted_demand": 2705.34,
+        "temperature": 21.9,
+        "reservoir_level": 70.9
+      },
+      {
+        "date": "2026-02-19",
+        "consumption": 2696.91,
+        "supply": 2734.69,
+        "predicted_demand": 2687.82,
+        "temperature": 16.2,
+        "reservoir_level": 74.9
+      },
+      {
+        "date": "2026-02-23",
+        "consumption": 2716.74,
+        "supply": 2789.8,
+        "predicted_demand": 2697.22,
+        "temperature": 15.7,
+        "reservoir_level": 70.6
+      },
+      {
+        "date": "2026-02-27",
+        "consumption": 2769.63,
+        "supply": 2836.17,
+        "predicted_demand": 2675.4,
+        "temperature": 20.7,
+        "reservoir_level": 70.2
+      },
+      {
+        "date": "2026-03-03",
+        "consumption": 2708.95,
+        "supply": 2787.57,
+        "predicted_demand": 2698.65,
+        "temperature": 21.4,
+        "reservoir_level": 70.6
+      },
+      {
+        "date": "2026-03-07",
+        "consumption": 2704.72,
+        "supply": 2803.88,
+        "predicted_demand": 2713.09,
+        "temperature": 19.2,
+        "reservoir_level": 72.3
+      },
+      {
+        "date": "2026-03-11",
+        "consumption": 2734.61,
+        "supply": 2719.56,
+        "predicted_demand": 2775.25,
+        "temperature": 18.5,
+        "reservoir_level": 69.9
+      },
+      {
+        "date": "2026-03-15",
+        "consumption": 2771.8,
+        "supply": 2830.47,
+        "predicted_demand": 2811.49,
+        "temperature": 20.2,
+        "reservoir_level": 75.0
+      },
+      {
+        "date": "2026-03-19",
+        "consumption": 2795.0,
+        "supply": 2861.23,
+        "predicted_demand": 2824.74,
+        "temperature": 21.5,
+        "reservoir_level": 68.7
+      },
+      {
+        "date": "2026-03-23",
+        "consumption": 2825.08,
+        "supply": 2872.41,
+        "predicted_demand": 2818.75,
+        "temperature": 22.4,
+        "reservoir_level": 69.0
+      },
+      {
+        "date": "2026-03-27",
+        "consumption": 2902.03,
+        "supply": 2988.38,
+        "predicted_demand": 2768.11,
+        "temperature": 22.9,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-03-31",
+        "consumption": 2866.04,
+        "supply": 2902.79,
+        "predicted_demand": 2945.89,
+        "temperature": 19.1,
+        "reservoir_level": 67.1
+      },
+      {
+        "date": "2026-04-04",
+        "consumption": 2949.19,
+        "supply": 2980.24,
+        "predicted_demand": 2896.92,
+        "temperature": 26.6,
+        "reservoir_level": 70.4
+      },
+      {
+        "date": "2026-04-08",
+        "consumption": 2967.77,
+        "supply": 3042.33,
+        "predicted_demand": 2923.0,
+        "temperature": 27.1,
+        "reservoir_level": 69.0
+      },
+      {
+        "date": "2026-04-12",
+        "consumption": 2832.57,
+        "supply": 2884.17,
+        "predicted_demand": 2937.67,
+        "temperature": 23.4,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-04-16",
+        "consumption": 3011.47,
+        "supply": 3071.04,
+        "predicted_demand": 3081.39,
+        "temperature": 26.8,
+        "reservoir_level": 66.6
+      },
+      {
+        "date": "2026-04-20",
+        "consumption": 2983.11,
+        "supply": 3077.39,
+        "predicted_demand": 3238.2,
+        "temperature": 25.1,
+        "reservoir_level": 68.5
+      },
+      {
+        "date": "2026-04-24",
+        "consumption": 3159.97,
+        "supply": 3222.47,
+        "predicted_demand": 3196.99,
+        "temperature": 30.2,
+        "reservoir_level": 68.5
+      },
+      {
+        "date": "2026-04-28",
+        "consumption": 3050.3,
+        "supply": 3159.95,
+        "predicted_demand": 3194.5,
+        "temperature": 26.5,
+        "reservoir_level": 70.1
+      },
+      {
+        "date": "2026-05-02",
+        "consumption": 3103.85,
+        "supply": 3152.3,
+        "predicted_demand": 3205.63,
+        "temperature": 29.0,
+        "reservoir_level": 71.5
+      },
+      {
+        "date": "2026-05-06",
+        "consumption": 3149.47,
+        "supply": 3233.95,
+        "predicted_demand": 3240.48,
+        "temperature": 28.3,
+        "reservoir_level": 70.0
+      },
+      {
+        "date": "2026-05-10",
+        "consumption": 3164.56,
+        "supply": 3240.82,
+        "predicted_demand": 3138.85,
+        "temperature": 29.7,
+        "reservoir_level": 64.4
+      },
+      {
+        "date": "2026-05-14",
+        "consumption": 3239.17,
+        "supply": 3337.48,
+        "predicted_demand": 3296.72,
+        "temperature": 30.8,
+        "reservoir_level": 67.2
+      },
+      {
+        "date": "2026-05-18",
+        "consumption": 3480.93,
+        "supply": 3573.28,
+        "predicted_demand": 3125.78,
+        "temperature": 36.0,
+        "reservoir_level": 67.8
+      },
+      {
+        "date": "2026-05-22",
+        "consumption": 3329.8,
+        "supply": 3437.0,
+        "predicted_demand": 3344.84,
+        "temperature": 31.5,
+        "reservoir_level": 70.2
+      },
+      {
+        "date": "2026-05-26",
+        "consumption": 3221.61,
+        "supply": 3286.28,
+        "predicted_demand": 3208.26,
+        "temperature": 30.8,
+        "reservoir_level": 68.6
+      },
+      {
+        "date": "2026-05-30",
+        "consumption": 3303.69,
+        "supply": 3371.29,
+        "predicted_demand": 3276.06,
+        "temperature": 31.8,
+        "reservoir_level": 68.2
+      },
+      {
+        "date": "2026-06-03",
+        "consumption": 3425.94,
+        "supply": 3535.54,
+        "predicted_demand": 3358.38,
+        "temperature": 35.0,
+        "reservoir_level": 64.6
+      },
+      {
+        "date": "2026-06-07",
+        "consumption": 3389.13,
+        "supply": 3477.83,
+        "predicted_demand": 3372.6,
+        "temperature": 35.5,
+        "reservoir_level": 68.8
+      },
+      {
+        "date": "2026-06-11",
+        "consumption": 3348.53,
+        "supply": 3416.55,
+        "predicted_demand": 3327.28,
+        "temperature": 31.6,
+        "reservoir_level": 68.4
+      },
+      {
+        "date": "2026-06-15",
+        "consumption": 3366.64,
+        "supply": 3503.69,
+        "predicted_demand": 3468.26,
+        "temperature": 34.1,
+        "reservoir_level": 63.2
+      },
+      {
+        "date": "2026-06-19",
+        "consumption": 3162.79,
+        "supply": 3230.43,
+        "predicted_demand": 3122.5,
+        "temperature": 34.7,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-06-23",
+        "consumption": 3372.54,
+        "supply": 3455.12,
+        "predicted_demand": 2764.86,
+        "temperature": 32.8,
+        "reservoir_level": 83.9
+      },
+      {
+        "date": "2026-06-27",
+        "consumption": 3057.56,
+        "supply": 3083.08,
+        "predicted_demand": 3120.46,
+        "temperature": 34.8,
+        "reservoir_level": 77.7
+      },
+      {
+        "date": "2026-07-01",
+        "consumption": 2798.19,
+        "supply": 2850.8,
+        "predicted_demand": 3172.85,
+        "temperature": 33.4,
+        "reservoir_level": 81.6
+      },
+      {
+        "date": "2026-07-05",
+        "consumption": 3202.93,
+        "supply": 3253.2,
+        "predicted_demand": 3151.44,
+        "temperature": 35.5,
+        "reservoir_level": 73.0
+      },
+      {
+        "date": "2026-07-09",
+        "consumption": 2872.04,
+        "supply": 2987.77,
+        "predicted_demand": 3316.59,
+        "temperature": 35.0,
+        "reservoir_level": 77.8
+      },
+      {
+        "date": "2026-07-13",
+        "consumption": 3387.21,
+        "supply": 3497.34,
+        "predicted_demand": 3111.3,
+        "temperature": 35.6,
+        "reservoir_level": 77.9
+      },
+      {
+        "date": "2026-07-17",
+        "consumption": 3262.84,
+        "supply": 3280.99,
+        "predicted_demand": 3303.47,
+        "temperature": 33.9,
+        "reservoir_level": 78.3
+      },
+      {
+        "date": "2026-07-21",
+        "consumption": 3460.73,
+        "supply": 3517.21,
+        "predicted_demand": 2757.34,
+        "temperature": 38.0,
+        "reservoir_level": 76.4
+      },
+      {
+        "date": "2026-07-25",
+        "consumption": 2774.41,
+        "supply": 2870.16,
+        "predicted_demand": 2978.04,
+        "temperature": 33.0,
+        "reservoir_level": 81.3
+      },
+      {
+        "date": "2026-07-29",
+        "consumption": 3236.25,
+        "supply": 3353.41,
+        "predicted_demand": 3233.66,
+        "temperature": 36.5,
+        "reservoir_level": 78.0
+      },
+      {
+        "date": "2026-08-02",
+        "consumption": 3098.48,
+        "supply": 3130.55,
+        "predicted_demand": 3409.69,
+        "temperature": 31.6,
+        "reservoir_level": 74.2
+      },
+      {
+        "date": "2026-08-06",
+        "consumption": 3186.73,
+        "supply": 3267.59,
+        "predicted_demand": 2833.15,
+        "temperature": 32.5,
+        "reservoir_level": 73.7
+      },
+      {
+        "date": "2026-08-10",
+        "consumption": 3184.94,
+        "supply": 3256.73,
+        "predicted_demand": 3108.05,
+        "temperature": 33.2,
+        "reservoir_level": 77.6
+      },
+      {
+        "date": "2026-08-14",
+        "consumption": 2979.64,
+        "supply": 3019.56,
+        "predicted_demand": 2899.87,
+        "temperature": 31.2,
+        "reservoir_level": 73.2
+      },
+      {
+        "date": "2026-08-18",
+        "consumption": 3160.84,
+        "supply": 3204.94,
+        "predicted_demand": 2933.59,
+        "temperature": 35.9,
+        "reservoir_level": 75.7
+      },
+      {
+        "date": "2026-08-22",
+        "consumption": 3135.62,
+        "supply": 3191.19,
+        "predicted_demand": 3144.37,
+        "temperature": 32.5,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-08-26",
+        "consumption": 3032.17,
+        "supply": 3101.91,
+        "predicted_demand": 3119.41,
+        "temperature": 30.7,
+        "reservoir_level": 73.8
+      },
+      {
+        "date": "2026-08-30",
+        "consumption": 2642.82,
+        "supply": 2680.5,
+        "predicted_demand": 2701.45,
+        "temperature": 35.9,
+        "reservoir_level": 76.2
+      },
+      {
+        "date": "2026-09-03",
+        "consumption": 2906.85,
+        "supply": 2984.73,
+        "predicted_demand": 2945.21,
+        "temperature": 33.6,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-09-07",
+        "consumption": 2968.6,
+        "supply": 3013.54,
+        "predicted_demand": 2731.72,
+        "temperature": 31.8,
+        "reservoir_level": 75.8
+      },
+      {
+        "date": "2026-09-11",
+        "consumption": 2984.58,
+        "supply": 3038.31,
+        "predicted_demand": 2606.33,
+        "temperature": 31.4,
+        "reservoir_level": 76.3
+      },
+      {
+        "date": "2026-09-15",
+        "consumption": 2952.87,
+        "supply": 3008.89,
+        "predicted_demand": 2663.67,
+        "temperature": 29.4,
+        "reservoir_level": 74.6
+      },
+      {
+        "date": "2026-09-19",
+        "consumption": 2857.38,
+        "supply": 2906.98,
+        "predicted_demand": 2279.19,
+        "temperature": 29.5,
+        "reservoir_level": 76.2
+      },
+      {
+        "date": "2026-09-23",
+        "consumption": 2681.42,
+        "supply": 2749.24,
+        "predicted_demand": 2715.85,
+        "temperature": 25.8,
+        "reservoir_level": 73.9
+      },
+      {
+        "date": "2026-09-27",
+        "consumption": 2150.2,
+        "supply": 2164.93,
+        "predicted_demand": 2527.69,
+        "temperature": 25.9,
+        "reservoir_level": 74.5
+      },
+      {
+        "date": "2026-10-01",
+        "consumption": 2435.8,
+        "supply": 2460.85,
+        "predicted_demand": 2740.41,
+        "temperature": 27.1,
+        "reservoir_level": 79.6
+      },
+      {
+        "date": "2026-10-05",
+        "consumption": 2786.96,
+        "supply": 2864.08,
+        "predicted_demand": 2725.11,
+        "temperature": 26.5,
+        "reservoir_level": 65.0
+      },
+      {
+        "date": "2026-10-09",
+        "consumption": 2895.82,
+        "supply": 2926.13,
+        "predicted_demand": 2839.18,
+        "temperature": 29.4,
+        "reservoir_level": 66.0
+      },
+      {
+        "date": "2026-10-13",
+        "consumption": 2763.99,
+        "supply": 2808.54,
+        "predicted_demand": 2733.04,
+        "temperature": 26.0,
+        "reservoir_level": 65.2
+      },
+      {
+        "date": "2026-10-17",
+        "consumption": 2631.56,
+        "supply": 2646.25,
+        "predicted_demand": 2732.91,
+        "temperature": 24.2,
+        "reservoir_level": 63.0
+      },
+      {
+        "date": "2026-10-21",
+        "consumption": 2647.9,
+        "supply": 2678.25,
+        "predicted_demand": 2684.54,
+        "temperature": 25.2,
+        "reservoir_level": 66.5
+      },
+      {
+        "date": "2026-10-25",
+        "consumption": 2619.17,
+        "supply": 2713.67,
+        "predicted_demand": 2652.68,
+        "temperature": 20.2,
+        "reservoir_level": 62.3
+      },
+      {
+        "date": "2026-10-29",
+        "consumption": 2657.29,
+        "supply": 2734.62,
+        "predicted_demand": 2647.26,
+        "temperature": 19.4,
+        "reservoir_level": 65.4
+      },
+      {
+        "date": "2026-11-02",
+        "consumption": 2651.05,
+        "supply": 2703.4,
+        "predicted_demand": 2667.07,
+        "temperature": 21.5,
+        "reservoir_level": 63.6
+      },
+      {
+        "date": "2026-11-06",
+        "consumption": 2601.49,
+        "supply": 2649.88,
+        "predicted_demand": 2505.24,
+        "temperature": 19.9,
+        "reservoir_level": 60.8
+      },
+      {
+        "date": "2026-11-10",
+        "consumption": 2593.64,
+        "supply": 2663.98,
+        "predicted_demand": 2546.73,
+        "temperature": 20.0,
+        "reservoir_level": 65.4
+      },
+      {
+        "date": "2026-11-14",
+        "consumption": 2514.99,
+        "supply": 2568.48,
+        "predicted_demand": 2510.39,
+        "temperature": 19.4,
+        "reservoir_level": 62.4
+      },
+      {
+        "date": "2026-11-18",
+        "consumption": 2533.74,
+        "supply": 2629.36,
+        "predicted_demand": 2551.96,
+        "temperature": 16.1,
+        "reservoir_level": 65.2
+      },
+      {
+        "date": "2026-11-22",
+        "consumption": 2527.16,
+        "supply": 2582.8,
+        "predicted_demand": 2512.49,
+        "temperature": 18.9,
+        "reservoir_level": 63.6
+      },
+      {
+        "date": "2026-11-26",
+        "consumption": 2574.24,
+        "supply": 2632.99,
+        "predicted_demand": 2603.85,
+        "temperature": 14.1,
+        "reservoir_level": 64.1
+      },
+      {
+        "date": "2026-11-30",
+        "consumption": 2524.05,
+        "supply": 2610.97,
+        "predicted_demand": 2496.85,
+        "temperature": 16.2,
+        "reservoir_level": 62.3
+      },
+      {
+        "date": "2026-12-04",
+        "consumption": 2470.76,
+        "supply": 2478.49,
+        "predicted_demand": 2558.48,
+        "temperature": 16.0,
+        "reservoir_level": 63.7
+      },
+      {
+        "date": "2026-12-08",
+        "consumption": 2524.57,
+        "supply": 2554.08,
+        "predicted_demand": 2561.44,
+        "temperature": 16.1,
+        "reservoir_level": 62.7
+      },
+      {
+        "date": "2026-12-12",
+        "consumption": 2497.84,
+        "supply": 2574.79,
+        "predicted_demand": 2461.83,
+        "temperature": 14.9,
+        "reservoir_level": 63.1
+      },
+      {
+        "date": "2026-12-16",
+        "consumption": 2496.85,
+        "supply": 2540.29,
+        "predicted_demand": 2521.79,
+        "temperature": 16.1,
+        "reservoir_level": 63.2
+      },
+      {
+        "date": "2026-12-20",
+        "consumption": 2506.41,
+        "supply": 2575.53,
+        "predicted_demand": 2546.22,
+        "temperature": 17.3,
+        "reservoir_level": 65.6
+      },
+      {
+        "date": "2026-12-24",
+        "consumption": 2462.82,
+        "supply": 2519.21,
+        "predicted_demand": 2518.64,
+        "temperature": 13.4,
+        "reservoir_level": 63.5
+      },
+      {
+        "date": "2026-12-28",
+        "consumption": 2502.43,
+        "supply": 2566.54,
+        "predicted_demand": 2521.7,
+        "temperature": 16.4,
+        "reservoir_level": 62.2
+      }
+    ],
+    "actual_vs_predicted_trend": [
+      {
+        "date": "2026-12-01",
+        "consumption": 2496.85,
+        "supply": 2548.24,
+        "predicted_demand": 2520.73,
+        "temperature": 16.5,
+        "reservoir_level": 65.3
+      },
+      {
+        "date": "2026-12-02",
+        "consumption": 2520.73,
+        "supply": 2576.07,
+        "predicted_demand": 2529.44,
+        "temperature": 14.0,
+        "reservoir_level": 63.9
+      },
+      {
+        "date": "2026-12-03",
+        "consumption": 2529.44,
+        "supply": 2545.1,
+        "predicted_demand": 2470.76,
+        "temperature": 16.0,
+        "reservoir_level": 66.7
+      },
+      {
+        "date": "2026-12-04",
+        "consumption": 2470.76,
+        "supply": 2478.49,
+        "predicted_demand": 2558.48,
+        "temperature": 16.0,
+        "reservoir_level": 63.7
+      },
+      {
+        "date": "2026-12-05",
+        "consumption": 2558.48,
+        "supply": 2575.29,
+        "predicted_demand": 2485.77,
+        "temperature": 15.8,
+        "reservoir_level": 65.7
+      },
+      {
+        "date": "2026-12-06",
+        "consumption": 2485.77,
+        "supply": 2549.29,
+        "predicted_demand": 2557.86,
+        "temperature": 16.1,
+        "reservoir_level": 61.8
+      },
+      {
+        "date": "2026-12-07",
+        "consumption": 2557.86,
+        "supply": 2612.44,
+        "predicted_demand": 2524.57,
+        "temperature": 14.8,
+        "reservoir_level": 62.2
+      },
+      {
+        "date": "2026-12-08",
+        "consumption": 2524.57,
+        "supply": 2554.08,
+        "predicted_demand": 2561.44,
+        "temperature": 16.1,
+        "reservoir_level": 62.7
+      },
+      {
+        "date": "2026-12-09",
+        "consumption": 2561.44,
+        "supply": 2608.6,
+        "predicted_demand": 2524.06,
+        "temperature": 13.7,
+        "reservoir_level": 63.9
+      },
+      {
+        "date": "2026-12-10",
+        "consumption": 2524.06,
+        "supply": 2564.59,
+        "predicted_demand": 2548.31,
+        "temperature": 14.2,
+        "reservoir_level": 63.6
+      },
+      {
+        "date": "2026-12-11",
+        "consumption": 2548.31,
+        "supply": 2616.79,
+        "predicted_demand": 2497.84,
+        "temperature": 15.7,
+        "reservoir_level": 62.0
+      },
+      {
+        "date": "2026-12-12",
+        "consumption": 2497.84,
+        "supply": 2574.79,
+        "predicted_demand": 2461.83,
+        "temperature": 14.9,
+        "reservoir_level": 63.1
+      },
+      {
+        "date": "2026-12-13",
+        "consumption": 2461.83,
+        "supply": 2483.78,
+        "predicted_demand": 2491.28,
+        "temperature": 21.1,
+        "reservoir_level": 60.0
+      },
+      {
+        "date": "2026-12-14",
+        "consumption": 2491.28,
+        "supply": 2545.09,
+        "predicted_demand": 2577.77,
+        "temperature": 17.4,
+        "reservoir_level": 61.0
+      },
+      {
+        "date": "2026-12-15",
+        "consumption": 2577.77,
+        "supply": 2646.74,
+        "predicted_demand": 2496.85,
+        "temperature": 17.2,
+        "reservoir_level": 67.3
+      },
+      {
+        "date": "2026-12-16",
+        "consumption": 2496.85,
+        "supply": 2540.29,
+        "predicted_demand": 2521.79,
+        "temperature": 16.1,
+        "reservoir_level": 63.2
+      },
+      {
+        "date": "2026-12-17",
+        "consumption": 2521.79,
+        "supply": 2580.82,
+        "predicted_demand": 2544.45,
+        "temperature": 17.7,
+        "reservoir_level": 61.6
+      },
+      {
+        "date": "2026-12-18",
+        "consumption": 2544.45,
+        "supply": 2597.42,
+        "predicted_demand": 2487.47,
+        "temperature": 15.2,
+        "reservoir_level": 62.3
+      },
+      {
+        "date": "2026-12-19",
+        "consumption": 2487.47,
+        "supply": 2532.08,
+        "predicted_demand": 2506.41,
+        "temperature": 15.9,
+        "reservoir_level": 62.1
+      },
+      {
+        "date": "2026-12-20",
+        "consumption": 2506.41,
+        "supply": 2575.53,
+        "predicted_demand": 2546.22,
+        "temperature": 17.3,
+        "reservoir_level": 65.6
+      },
+      {
+        "date": "2026-12-21",
+        "consumption": 2546.22,
+        "supply": 2637.37,
+        "predicted_demand": 2557.81,
+        "temperature": 14.2,
+        "reservoir_level": 64.6
+      },
+      {
+        "date": "2026-12-22",
+        "consumption": 2557.81,
+        "supply": 2592.56,
+        "predicted_demand": 2552.68,
+        "temperature": 13.9,
+        "reservoir_level": 63.8
+      },
+      {
+        "date": "2026-12-23",
+        "consumption": 2552.68,
+        "supply": 2591.69,
+        "predicted_demand": 2462.82,
+        "temperature": 14.9,
+        "reservoir_level": 63.1
+      },
+      {
+        "date": "2026-12-24",
+        "consumption": 2462.82,
+        "supply": 2519.21,
+        "predicted_demand": 2518.64,
+        "temperature": 13.4,
+        "reservoir_level": 63.5
+      },
+      {
+        "date": "2026-12-25",
+        "consumption": 2518.64,
+        "supply": 2580.07,
+        "predicted_demand": 2458.33,
+        "temperature": 12.8,
+        "reservoir_level": 62.1
+      },
+      {
+        "date": "2026-12-26",
+        "consumption": 2458.33,
+        "supply": 2537.71,
+        "predicted_demand": 2432.62,
+        "temperature": 12.1,
+        "reservoir_level": 61.0
+      },
+      {
+        "date": "2026-12-27",
+        "consumption": 2432.62,
+        "supply": 2465.68,
+        "predicted_demand": 2502.43,
+        "temperature": 13.0,
+        "reservoir_level": 67.0
+      },
+      {
+        "date": "2026-12-28",
+        "consumption": 2502.43,
+        "supply": 2566.54,
+        "predicted_demand": 2521.7,
+        "temperature": 16.4,
+        "reservoir_level": 62.2
+      },
+      {
+        "date": "2026-12-29",
+        "consumption": 2521.7,
+        "supply": 2572.82,
+        "predicted_demand": 2582.7,
+        "temperature": 12.9,
+        "reservoir_level": 60.6
+      },
+      {
+        "date": "2026-12-30",
+        "consumption": 2582.7,
+        "supply": 2676.93,
+        "predicted_demand": 2532.54,
+        "temperature": 14.8,
+        "reservoir_level": 63.8
+      }
+    ],
+    "sector_distribution": [
+      {
+        "name": "Agriculture",
+        "value": 394878.16,
+        "percentage": 37.96
+      },
+      {
+        "name": "Commercial",
+        "value": 127342.18,
+        "percentage": 12.24
+      },
+      {
+        "name": "Industrial",
+        "value": 260838.16,
+        "percentage": 25.07
+      },
+      {
+        "name": "Institutional",
+        "value": 94358.95,
+        "percentage": 9.07
+      },
+      {
+        "name": "Residential",
+        "value": 162906.5,
+        "percentage": 15.66
+      }
+    ],
+    "zone_comparison": [
+      {
+        "zone": "Zone A",
+        "consumption": 293765.43,
+        "supply": 299590.32,
+        "population": 50000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone B",
+        "consumption": 246743.12,
+        "supply": 251912.48,
+        "population": 42000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone C",
+        "consumption": 205683.6,
+        "supply": 209911.2,
+        "population": 35000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone D",
+        "consumption": 164708.36,
+        "supply": 168272.7,
+        "population": 28000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone E",
+        "consumption": 129423.44,
+        "supply": 132008.02,
+        "population": 22000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      }
+    ],
+    "supply_vs_consumption": [
+      {
+        "zone": "Zone A",
+        "consumption": 293765.43,
+        "supply": 299590.32,
+        "population": 50000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone B",
+        "consumption": 246743.12,
+        "supply": 251912.48,
+        "population": 42000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone C",
+        "consumption": 205683.6,
+        "supply": 209911.2,
+        "population": 35000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone D",
+        "consumption": 164708.36,
+        "supply": 168272.7,
+        "population": 28000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      },
+      {
+        "zone": "Zone E",
+        "consumption": 129423.44,
+        "supply": 132008.02,
+        "population": 22000,
+        "avg_reservoir": 70.4,
+        "status": "HIGH"
+      }
+    ],
+    "reservoir_level_trend": [
+      {
+        "date": "2026-01-02",
+        "consumption": 2513.99,
+        "supply": 2607.55,
+        "predicted_demand": 2509.75,
+        "temperature": 13.0,
+        "reservoir_level": 73.6
+      },
+      {
+        "date": "2026-01-06",
+        "consumption": 2572.67,
+        "supply": 2639.91,
+        "predicted_demand": 2579.97,
+        "temperature": 17.1,
+        "reservoir_level": 68.6
+      },
+      {
+        "date": "2026-01-10",
+        "consumption": 2502.95,
+        "supply": 2549.17,
+        "predicted_demand": 2510.74,
+        "temperature": 15.0,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-01-14",
+        "consumption": 2569.07,
+        "supply": 2621.08,
+        "predicted_demand": 2630.05,
+        "temperature": 14.7,
+        "reservoir_level": 70.1
+      },
+      {
+        "date": "2026-01-18",
+        "consumption": 2494.16,
+        "supply": 2562.97,
+        "predicted_demand": 2552.24,
+        "temperature": 13.4,
+        "reservoir_level": 74.6
+      },
+      {
+        "date": "2026-01-22",
+        "consumption": 2586.85,
+        "supply": 2629.19,
+        "predicted_demand": 2566.81,
+        "temperature": 14.8,
+        "reservoir_level": 71.7
+      },
+      {
+        "date": "2026-01-26",
+        "consumption": 2534.3,
+        "supply": 2597.83,
+        "predicted_demand": 2620.66,
+        "temperature": 13.4,
+        "reservoir_level": 67.7
+      },
+      {
+        "date": "2026-01-30",
+        "consumption": 2661.46,
+        "supply": 2718.51,
+        "predicted_demand": 2558.5,
+        "temperature": 14.2,
+        "reservoir_level": 74.3
+      },
+      {
+        "date": "2026-02-03",
+        "consumption": 2573.79,
+        "supply": 2608.43,
+        "predicted_demand": 2665.08,
+        "temperature": 13.2,
+        "reservoir_level": 71.4
+      },
+      {
+        "date": "2026-02-07",
+        "consumption": 2556.99,
+        "supply": 2598.17,
+        "predicted_demand": 2595.39,
+        "temperature": 17.0,
+        "reservoir_level": 70.5
+      },
+      {
+        "date": "2026-02-11",
+        "consumption": 2632.82,
+        "supply": 2685.61,
+        "predicted_demand": 2647.28,
+        "temperature": 17.5,
+        "reservoir_level": 71.0
+      },
+      {
+        "date": "2026-02-15",
+        "consumption": 2583.09,
+        "supply": 2608.11,
+        "predicted_demand": 2705.34,
+        "temperature": 21.9,
+        "reservoir_level": 70.9
+      },
+      {
+        "date": "2026-02-19",
+        "consumption": 2696.91,
+        "supply": 2734.69,
+        "predicted_demand": 2687.82,
+        "temperature": 16.2,
+        "reservoir_level": 74.9
+      },
+      {
+        "date": "2026-02-23",
+        "consumption": 2716.74,
+        "supply": 2789.8,
+        "predicted_demand": 2697.22,
+        "temperature": 15.7,
+        "reservoir_level": 70.6
+      },
+      {
+        "date": "2026-02-27",
+        "consumption": 2769.63,
+        "supply": 2836.17,
+        "predicted_demand": 2675.4,
+        "temperature": 20.7,
+        "reservoir_level": 70.2
+      },
+      {
+        "date": "2026-03-03",
+        "consumption": 2708.95,
+        "supply": 2787.57,
+        "predicted_demand": 2698.65,
+        "temperature": 21.4,
+        "reservoir_level": 70.6
+      },
+      {
+        "date": "2026-03-07",
+        "consumption": 2704.72,
+        "supply": 2803.88,
+        "predicted_demand": 2713.09,
+        "temperature": 19.2,
+        "reservoir_level": 72.3
+      },
+      {
+        "date": "2026-03-11",
+        "consumption": 2734.61,
+        "supply": 2719.56,
+        "predicted_demand": 2775.25,
+        "temperature": 18.5,
+        "reservoir_level": 69.9
+      },
+      {
+        "date": "2026-03-15",
+        "consumption": 2771.8,
+        "supply": 2830.47,
+        "predicted_demand": 2811.49,
+        "temperature": 20.2,
+        "reservoir_level": 75.0
+      },
+      {
+        "date": "2026-03-19",
+        "consumption": 2795.0,
+        "supply": 2861.23,
+        "predicted_demand": 2824.74,
+        "temperature": 21.5,
+        "reservoir_level": 68.7
+      },
+      {
+        "date": "2026-03-23",
+        "consumption": 2825.08,
+        "supply": 2872.41,
+        "predicted_demand": 2818.75,
+        "temperature": 22.4,
+        "reservoir_level": 69.0
+      },
+      {
+        "date": "2026-03-27",
+        "consumption": 2902.03,
+        "supply": 2988.38,
+        "predicted_demand": 2768.11,
+        "temperature": 22.9,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-03-31",
+        "consumption": 2866.04,
+        "supply": 2902.79,
+        "predicted_demand": 2945.89,
+        "temperature": 19.1,
+        "reservoir_level": 67.1
+      },
+      {
+        "date": "2026-04-04",
+        "consumption": 2949.19,
+        "supply": 2980.24,
+        "predicted_demand": 2896.92,
+        "temperature": 26.6,
+        "reservoir_level": 70.4
+      },
+      {
+        "date": "2026-04-08",
+        "consumption": 2967.77,
+        "supply": 3042.33,
+        "predicted_demand": 2923.0,
+        "temperature": 27.1,
+        "reservoir_level": 69.0
+      },
+      {
+        "date": "2026-04-12",
+        "consumption": 2832.57,
+        "supply": 2884.17,
+        "predicted_demand": 2937.67,
+        "temperature": 23.4,
+        "reservoir_level": 71.2
+      },
+      {
+        "date": "2026-04-16",
+        "consumption": 3011.47,
+        "supply": 3071.04,
+        "predicted_demand": 3081.39,
+        "temperature": 26.8,
+        "reservoir_level": 66.6
+      },
+      {
+        "date": "2026-04-20",
+        "consumption": 2983.11,
+        "supply": 3077.39,
+        "predicted_demand": 3238.2,
+        "temperature": 25.1,
+        "reservoir_level": 68.5
+      },
+      {
+        "date": "2026-04-24",
+        "consumption": 3159.97,
+        "supply": 3222.47,
+        "predicted_demand": 3196.99,
+        "temperature": 30.2,
+        "reservoir_level": 68.5
+      },
+      {
+        "date": "2026-04-28",
+        "consumption": 3050.3,
+        "supply": 3159.95,
+        "predicted_demand": 3194.5,
+        "temperature": 26.5,
+        "reservoir_level": 70.1
+      },
+      {
+        "date": "2026-05-02",
+        "consumption": 3103.85,
+        "supply": 3152.3,
+        "predicted_demand": 3205.63,
+        "temperature": 29.0,
+        "reservoir_level": 71.5
+      },
+      {
+        "date": "2026-05-06",
+        "consumption": 3149.47,
+        "supply": 3233.95,
+        "predicted_demand": 3240.48,
+        "temperature": 28.3,
+        "reservoir_level": 70.0
+      },
+      {
+        "date": "2026-05-10",
+        "consumption": 3164.56,
+        "supply": 3240.82,
+        "predicted_demand": 3138.85,
+        "temperature": 29.7,
+        "reservoir_level": 64.4
+      },
+      {
+        "date": "2026-05-14",
+        "consumption": 3239.17,
+        "supply": 3337.48,
+        "predicted_demand": 3296.72,
+        "temperature": 30.8,
+        "reservoir_level": 67.2
+      },
+      {
+        "date": "2026-05-18",
+        "consumption": 3480.93,
+        "supply": 3573.28,
+        "predicted_demand": 3125.78,
+        "temperature": 36.0,
+        "reservoir_level": 67.8
+      },
+      {
+        "date": "2026-05-22",
+        "consumption": 3329.8,
+        "supply": 3437.0,
+        "predicted_demand": 3344.84,
+        "temperature": 31.5,
+        "reservoir_level": 70.2
+      },
+      {
+        "date": "2026-05-26",
+        "consumption": 3221.61,
+        "supply": 3286.28,
+        "predicted_demand": 3208.26,
+        "temperature": 30.8,
+        "reservoir_level": 68.6
+      },
+      {
+        "date": "2026-05-30",
+        "consumption": 3303.69,
+        "supply": 3371.29,
+        "predicted_demand": 3276.06,
+        "temperature": 31.8,
+        "reservoir_level": 68.2
+      },
+      {
+        "date": "2026-06-03",
+        "consumption": 3425.94,
+        "supply": 3535.54,
+        "predicted_demand": 3358.38,
+        "temperature": 35.0,
+        "reservoir_level": 64.6
+      },
+      {
+        "date": "2026-06-07",
+        "consumption": 3389.13,
+        "supply": 3477.83,
+        "predicted_demand": 3372.6,
+        "temperature": 35.5,
+        "reservoir_level": 68.8
+      },
+      {
+        "date": "2026-06-11",
+        "consumption": 3348.53,
+        "supply": 3416.55,
+        "predicted_demand": 3327.28,
+        "temperature": 31.6,
+        "reservoir_level": 68.4
+      },
+      {
+        "date": "2026-06-15",
+        "consumption": 3366.64,
+        "supply": 3503.69,
+        "predicted_demand": 3468.26,
+        "temperature": 34.1,
+        "reservoir_level": 63.2
+      },
+      {
+        "date": "2026-06-19",
+        "consumption": 3162.79,
+        "supply": 3230.43,
+        "predicted_demand": 3122.5,
+        "temperature": 34.7,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-06-23",
+        "consumption": 3372.54,
+        "supply": 3455.12,
+        "predicted_demand": 2764.86,
+        "temperature": 32.8,
+        "reservoir_level": 83.9
+      },
+      {
+        "date": "2026-06-27",
+        "consumption": 3057.56,
+        "supply": 3083.08,
+        "predicted_demand": 3120.46,
+        "temperature": 34.8,
+        "reservoir_level": 77.7
+      },
+      {
+        "date": "2026-07-01",
+        "consumption": 2798.19,
+        "supply": 2850.8,
+        "predicted_demand": 3172.85,
+        "temperature": 33.4,
+        "reservoir_level": 81.6
+      },
+      {
+        "date": "2026-07-05",
+        "consumption": 3202.93,
+        "supply": 3253.2,
+        "predicted_demand": 3151.44,
+        "temperature": 35.5,
+        "reservoir_level": 73.0
+      },
+      {
+        "date": "2026-07-09",
+        "consumption": 2872.04,
+        "supply": 2987.77,
+        "predicted_demand": 3316.59,
+        "temperature": 35.0,
+        "reservoir_level": 77.8
+      },
+      {
+        "date": "2026-07-13",
+        "consumption": 3387.21,
+        "supply": 3497.34,
+        "predicted_demand": 3111.3,
+        "temperature": 35.6,
+        "reservoir_level": 77.9
+      },
+      {
+        "date": "2026-07-17",
+        "consumption": 3262.84,
+        "supply": 3280.99,
+        "predicted_demand": 3303.47,
+        "temperature": 33.9,
+        "reservoir_level": 78.3
+      },
+      {
+        "date": "2026-07-21",
+        "consumption": 3460.73,
+        "supply": 3517.21,
+        "predicted_demand": 2757.34,
+        "temperature": 38.0,
+        "reservoir_level": 76.4
+      },
+      {
+        "date": "2026-07-25",
+        "consumption": 2774.41,
+        "supply": 2870.16,
+        "predicted_demand": 2978.04,
+        "temperature": 33.0,
+        "reservoir_level": 81.3
+      },
+      {
+        "date": "2026-07-29",
+        "consumption": 3236.25,
+        "supply": 3353.41,
+        "predicted_demand": 3233.66,
+        "temperature": 36.5,
+        "reservoir_level": 78.0
+      },
+      {
+        "date": "2026-08-02",
+        "consumption": 3098.48,
+        "supply": 3130.55,
+        "predicted_demand": 3409.69,
+        "temperature": 31.6,
+        "reservoir_level": 74.2
+      },
+      {
+        "date": "2026-08-06",
+        "consumption": 3186.73,
+        "supply": 3267.59,
+        "predicted_demand": 2833.15,
+        "temperature": 32.5,
+        "reservoir_level": 73.7
+      },
+      {
+        "date": "2026-08-10",
+        "consumption": 3184.94,
+        "supply": 3256.73,
+        "predicted_demand": 3108.05,
+        "temperature": 33.2,
+        "reservoir_level": 77.6
+      },
+      {
+        "date": "2026-08-14",
+        "consumption": 2979.64,
+        "supply": 3019.56,
+        "predicted_demand": 2899.87,
+        "temperature": 31.2,
+        "reservoir_level": 73.2
+      },
+      {
+        "date": "2026-08-18",
+        "consumption": 3160.84,
+        "supply": 3204.94,
+        "predicted_demand": 2933.59,
+        "temperature": 35.9,
+        "reservoir_level": 75.7
+      },
+      {
+        "date": "2026-08-22",
+        "consumption": 3135.62,
+        "supply": 3191.19,
+        "predicted_demand": 3144.37,
+        "temperature": 32.5,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-08-26",
+        "consumption": 3032.17,
+        "supply": 3101.91,
+        "predicted_demand": 3119.41,
+        "temperature": 30.7,
+        "reservoir_level": 73.8
+      },
+      {
+        "date": "2026-08-30",
+        "consumption": 2642.82,
+        "supply": 2680.5,
+        "predicted_demand": 2701.45,
+        "temperature": 35.9,
+        "reservoir_level": 76.2
+      },
+      {
+        "date": "2026-09-03",
+        "consumption": 2906.85,
+        "supply": 2984.73,
+        "predicted_demand": 2945.21,
+        "temperature": 33.6,
+        "reservoir_level": 76.8
+      },
+      {
+        "date": "2026-09-07",
+        "consumption": 2968.6,
+        "supply": 3013.54,
+        "predicted_demand": 2731.72,
+        "temperature": 31.8,
+        "reservoir_level": 75.8
+      },
+      {
+        "date": "2026-09-11",
+        "consumption": 2984.58,
+        "supply": 3038.31,
+        "predicted_demand": 2606.33,
+        "temperature": 31.4,
+        "reservoir_level": 76.3
+      },
+      {
+        "date": "2026-09-15",
+        "consumption": 2952.87,
+        "supply": 3008.89,
+        "predicted_demand": 2663.67,
+        "temperature": 29.4,
+        "reservoir_level": 74.6
+      },
+      {
+        "date": "2026-09-19",
+        "consumption": 2857.38,
+        "supply": 2906.98,
+        "predicted_demand": 2279.19,
+        "temperature": 29.5,
+        "reservoir_level": 76.2
+      },
+      {
+        "date": "2026-09-23",
+        "consumption": 2681.42,
+        "supply": 2749.24,
+        "predicted_demand": 2715.85,
+        "temperature": 25.8,
+        "reservoir_level": 73.9
+      },
+      {
+        "date": "2026-09-27",
+        "consumption": 2150.2,
+        "supply": 2164.93,
+        "predicted_demand": 2527.69,
+        "temperature": 25.9,
+        "reservoir_level": 74.5
+      },
+      {
+        "date": "2026-10-01",
+        "consumption": 2435.8,
+        "supply": 2460.85,
+        "predicted_demand": 2740.41,
+        "temperature": 27.1,
+        "reservoir_level": 79.6
+      },
+      {
+        "date": "2026-10-05",
+        "consumption": 2786.96,
+        "supply": 2864.08,
+        "predicted_demand": 2725.11,
+        "temperature": 26.5,
+        "reservoir_level": 65.0
+      },
+      {
+        "date": "2026-10-09",
+        "consumption": 2895.82,
+        "supply": 2926.13,
+        "predicted_demand": 2839.18,
+        "temperature": 29.4,
+        "reservoir_level": 66.0
+      },
+      {
+        "date": "2026-10-13",
+        "consumption": 2763.99,
+        "supply": 2808.54,
+        "predicted_demand": 2733.04,
+        "temperature": 26.0,
+        "reservoir_level": 65.2
+      },
+      {
+        "date": "2026-10-17",
+        "consumption": 2631.56,
+        "supply": 2646.25,
+        "predicted_demand": 2732.91,
+        "temperature": 24.2,
+        "reservoir_level": 63.0
+      },
+      {
+        "date": "2026-10-21",
+        "consumption": 2647.9,
+        "supply": 2678.25,
+        "predicted_demand": 2684.54,
+        "temperature": 25.2,
+        "reservoir_level": 66.5
+      },
+      {
+        "date": "2026-10-25",
+        "consumption": 2619.17,
+        "supply": 2713.67,
+        "predicted_demand": 2652.68,
+        "temperature": 20.2,
+        "reservoir_level": 62.3
+      },
+      {
+        "date": "2026-10-29",
+        "consumption": 2657.29,
+        "supply": 2734.62,
+        "predicted_demand": 2647.26,
+        "temperature": 19.4,
+        "reservoir_level": 65.4
+      },
+      {
+        "date": "2026-11-02",
+        "consumption": 2651.05,
+        "supply": 2703.4,
+        "predicted_demand": 2667.07,
+        "temperature": 21.5,
+        "reservoir_level": 63.6
+      },
+      {
+        "date": "2026-11-06",
+        "consumption": 2601.49,
+        "supply": 2649.88,
+        "predicted_demand": 2505.24,
+        "temperature": 19.9,
+        "reservoir_level": 60.8
+      },
+      {
+        "date": "2026-11-10",
+        "consumption": 2593.64,
+        "supply": 2663.98,
+        "predicted_demand": 2546.73,
+        "temperature": 20.0,
+        "reservoir_level": 65.4
+      },
+      {
+        "date": "2026-11-14",
+        "consumption": 2514.99,
+        "supply": 2568.48,
+        "predicted_demand": 2510.39,
+        "temperature": 19.4,
+        "reservoir_level": 62.4
+      },
+      {
+        "date": "2026-11-18",
+        "consumption": 2533.74,
+        "supply": 2629.36,
+        "predicted_demand": 2551.96,
+        "temperature": 16.1,
+        "reservoir_level": 65.2
+      },
+      {
+        "date": "2026-11-22",
+        "consumption": 2527.16,
+        "supply": 2582.8,
+        "predicted_demand": 2512.49,
+        "temperature": 18.9,
+        "reservoir_level": 63.6
+      },
+      {
+        "date": "2026-11-26",
+        "consumption": 2574.24,
+        "supply": 2632.99,
+        "predicted_demand": 2603.85,
+        "temperature": 14.1,
+        "reservoir_level": 64.1
+      },
+      {
+        "date": "2026-11-30",
+        "consumption": 2524.05,
+        "supply": 2610.97,
+        "predicted_demand": 2496.85,
+        "temperature": 16.2,
+        "reservoir_level": 62.3
+      },
+      {
+        "date": "2026-12-04",
+        "consumption": 2470.76,
+        "supply": 2478.49,
+        "predicted_demand": 2558.48,
+        "temperature": 16.0,
+        "reservoir_level": 63.7
+      },
+      {
+        "date": "2026-12-08",
+        "consumption": 2524.57,
+        "supply": 2554.08,
+        "predicted_demand": 2561.44,
+        "temperature": 16.1,
+        "reservoir_level": 62.7
+      },
+      {
+        "date": "2026-12-12",
+        "consumption": 2497.84,
+        "supply": 2574.79,
+        "predicted_demand": 2461.83,
+        "temperature": 14.9,
+        "reservoir_level": 63.1
+      },
+      {
+        "date": "2026-12-16",
+        "consumption": 2496.85,
+        "supply": 2540.29,
+        "predicted_demand": 2521.79,
+        "temperature": 16.1,
+        "reservoir_level": 63.2
+      },
+      {
+        "date": "2026-12-20",
+        "consumption": 2506.41,
+        "supply": 2575.53,
+        "predicted_demand": 2546.22,
+        "temperature": 17.3,
+        "reservoir_level": 65.6
+      },
+      {
+        "date": "2026-12-24",
+        "consumption": 2462.82,
+        "supply": 2519.21,
+        "predicted_demand": 2518.64,
+        "temperature": 13.4,
+        "reservoir_level": 63.5
+      },
+      {
+        "date": "2026-12-28",
+        "consumption": 2502.43,
+        "supply": 2566.54,
+        "predicted_demand": 2521.7,
+        "temperature": 16.4,
+        "reservoir_level": 62.2
+      }
+    ],
+    "high_demand_alerts": [
+      {
+        "zone": "Zone A",
+        "status": "HIGH",
+        "message": "Zone A consumption is operating at 98.1% of municipal supply.",
+        "consumption_mld": 293765.43,
+        "supply_mld": 299590.32
+      },
+      {
+        "zone": "Zone B",
+        "status": "HIGH",
+        "message": "Zone B consumption is operating at 97.9% of municipal supply.",
+        "consumption_mld": 246743.12,
+        "supply_mld": 251912.48
+      },
+      {
+        "zone": "Zone C",
+        "status": "HIGH",
+        "message": "Zone C consumption is operating at 98.0% of municipal supply.",
+        "consumption_mld": 205683.6,
+        "supply_mld": 209911.2
+      },
+      {
+        "zone": "Zone D",
+        "status": "HIGH",
+        "message": "Zone D consumption is operating at 97.9% of municipal supply.",
+        "consumption_mld": 164708.36,
+        "supply_mld": 168272.7
+      },
+      {
+        "zone": "Zone E",
+        "status": "HIGH",
+        "message": "Zone E consumption is operating at 98.0% of municipal supply.",
+        "consumption_mld": 129423.44,
+        "supply_mld": 132008.02
+      }
+    ],
+    "recent_anomalies": [],
+    "dataset_info": {
+      "filtered_rows": 9075,
+      "total_rows": 9075,
+      "date_min": "2026-01-02",
+      "date_max": "2026-12-30"
+    }
+  },
+  "consumption": {
+    "daily_trends": [
+      {
+        "date": "2026-10-02",
+        "consumption": 2740.41,
+        "supply": 2815.38,
+        "predicted": 2723.1,
+        "temperature": 25.2,
+        "rainfall": 0.8
+      },
+      {
+        "date": "2026-10-03",
+        "consumption": 2723.1,
+        "supply": 2755.04,
+        "predicted": 2695.23,
+        "temperature": 26.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-04",
+        "consumption": 2695.23,
+        "supply": 2720.36,
+        "predicted": 2786.96,
+        "temperature": 25.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "consumption": 2786.96,
+        "supply": 2864.08,
+        "predicted": 2725.11,
+        "temperature": 26.5,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "consumption": 2725.11,
+        "supply": 2785.4,
+        "predicted": 2940.13,
+        "temperature": 26.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-07",
+        "consumption": 2940.13,
+        "supply": 2985.68,
+        "predicted": 2784.36,
+        "temperature": 30.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-08",
+        "consumption": 2784.36,
+        "supply": 2844.97,
+        "predicted": 2895.82,
+        "temperature": 25.5,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-09",
+        "consumption": 2895.82,
+        "supply": 2926.13,
+        "predicted": 2839.18,
+        "temperature": 29.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-10",
+        "consumption": 2839.18,
+        "supply": 2896.85,
+        "predicted": 2711.57,
+        "temperature": 31.7,
+        "rainfall": 3.0
+      },
+      {
+        "date": "2026-10-11",
+        "consumption": 2711.57,
+        "supply": 2770.99,
+        "predicted": 2694.62,
+        "temperature": 21.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-12",
+        "consumption": 2694.62,
+        "supply": 2712.46,
+        "predicted": 2763.99,
+        "temperature": 26.2,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-10-13",
+        "consumption": 2763.99,
+        "supply": 2808.54,
+        "predicted": 2733.04,
+        "temperature": 26.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-14",
+        "consumption": 2733.04,
+        "supply": 2756.36,
+        "predicted": 2672.35,
+        "temperature": 23.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-15",
+        "consumption": 2672.35,
+        "supply": 2735.69,
+        "predicted": 2701.77,
+        "temperature": 21.2,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-10-16",
+        "consumption": 2701.77,
+        "supply": 2767.42,
+        "predicted": 2631.56,
+        "temperature": 22.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-17",
+        "consumption": 2631.56,
+        "supply": 2646.25,
+        "predicted": 2732.91,
+        "temperature": 24.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-18",
+        "consumption": 2732.91,
+        "supply": 2830.76,
+        "predicted": 2672.4,
+        "temperature": 28.0,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-10-19",
+        "consumption": 2672.4,
+        "supply": 2711.14,
+        "predicted": 2682.42,
+        "temperature": 22.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-20",
+        "consumption": 2682.42,
+        "supply": 2747.93,
+        "predicted": 2647.9,
+        "temperature": 24.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-21",
+        "consumption": 2647.9,
+        "supply": 2678.25,
+        "predicted": 2684.54,
+        "temperature": 25.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-22",
+        "consumption": 2684.54,
+        "supply": 2757.58,
+        "predicted": 2707.64,
+        "temperature": 21.5,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-23",
+        "consumption": 2707.64,
+        "supply": 2750.72,
+        "predicted": 2661.01,
+        "temperature": 19.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-24",
+        "consumption": 2661.01,
+        "supply": 2773.5,
+        "predicted": 2619.17,
+        "temperature": 18.1,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-10-25",
+        "consumption": 2619.17,
+        "supply": 2713.67,
+        "predicted": 2652.68,
+        "temperature": 20.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-26",
+        "consumption": 2652.68,
+        "supply": 2719.18,
+        "predicted": 2646.46,
+        "temperature": 22.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-27",
+        "consumption": 2646.46,
+        "supply": 2657.72,
+        "predicted": 2623.4,
+        "temperature": 18.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-28",
+        "consumption": 2623.4,
+        "supply": 2659.22,
+        "predicted": 2657.29,
+        "temperature": 20.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-29",
+        "consumption": 2657.29,
+        "supply": 2734.62,
+        "predicted": 2647.26,
+        "temperature": 19.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "consumption": 2647.26,
+        "supply": 2758.2,
+        "predicted": 2557.63,
+        "temperature": 22.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-10-31",
+        "consumption": 2557.63,
+        "supply": 2639.58,
+        "predicted": 2563.18,
+        "temperature": 24.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-01",
+        "consumption": 2563.18,
+        "supply": 2625.37,
+        "predicted": 2651.05,
+        "temperature": 19.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-02",
+        "consumption": 2651.05,
+        "supply": 2703.4,
+        "predicted": 2667.07,
+        "temperature": 21.5,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-03",
+        "consumption": 2667.07,
+        "supply": 2714.35,
+        "predicted": 2620.87,
+        "temperature": 18.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-04",
+        "consumption": 2620.87,
+        "supply": 2668.77,
+        "predicted": 2594.26,
+        "temperature": 20.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-05",
+        "consumption": 2594.26,
+        "supply": 2649.3,
+        "predicted": 2601.49,
+        "temperature": 17.2,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-11-06",
+        "consumption": 2601.49,
+        "supply": 2649.88,
+        "predicted": 2505.24,
+        "temperature": 19.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-07",
+        "consumption": 2505.24,
+        "supply": 2588.82,
+        "predicted": 2587.38,
+        "temperature": 20.1,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-11-08",
+        "consumption": 2587.38,
+        "supply": 2643.86,
+        "predicted": 2617.28,
+        "temperature": 20.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-09",
+        "consumption": 2617.28,
+        "supply": 2665.34,
+        "predicted": 2593.64,
+        "temperature": 19.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-10",
+        "consumption": 2593.64,
+        "supply": 2663.98,
+        "predicted": 2546.73,
+        "temperature": 20.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "consumption": 2546.73,
+        "supply": 2585.68,
+        "predicted": 2551.08,
+        "temperature": 14.7,
+        "rainfall": 3.0
+      },
+      {
+        "date": "2026-11-12",
+        "consumption": 2551.08,
+        "supply": 2624.73,
+        "predicted": 2583.32,
+        "temperature": 20.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-13",
+        "consumption": 2583.32,
+        "supply": 2630.2,
+        "predicted": 2514.99,
+        "temperature": 18.5,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-14",
+        "consumption": 2514.99,
+        "supply": 2568.48,
+        "predicted": 2510.39,
+        "temperature": 19.4,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-11-15",
+        "consumption": 2510.39,
+        "supply": 2568.96,
+        "predicted": 2556.64,
+        "temperature": 19.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-16",
+        "consumption": 2556.64,
+        "supply": 2602.9,
+        "predicted": 2592.77,
+        "temperature": 17.0,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-11-17",
+        "consumption": 2592.77,
+        "supply": 2642.37,
+        "predicted": 2533.74,
+        "temperature": 18.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-18",
+        "consumption": 2533.74,
+        "supply": 2629.36,
+        "predicted": 2551.96,
+        "temperature": 16.1,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-11-19",
+        "consumption": 2551.96,
+        "supply": 2599.9,
+        "predicted": 2543.01,
+        "temperature": 19.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-20",
+        "consumption": 2543.01,
+        "supply": 2619.8,
+        "predicted": 2486.81,
+        "temperature": 19.5,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-11-21",
+        "consumption": 2486.81,
+        "supply": 2528.38,
+        "predicted": 2527.16,
+        "temperature": 14.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-22",
+        "consumption": 2527.16,
+        "supply": 2582.8,
+        "predicted": 2512.49,
+        "temperature": 18.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-23",
+        "consumption": 2512.49,
+        "supply": 2599.89,
+        "predicted": 2500.15,
+        "temperature": 15.0,
+        "rainfall": 3.0
+      },
+      {
+        "date": "2026-11-24",
+        "consumption": 2500.15,
+        "supply": 2503.78,
+        "predicted": 2606.89,
+        "temperature": 16.2,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-11-25",
+        "consumption": 2606.89,
+        "supply": 2664.31,
+        "predicted": 2574.24,
+        "temperature": 19.6,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-26",
+        "consumption": 2574.24,
+        "supply": 2632.99,
+        "predicted": 2603.85,
+        "temperature": 14.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-27",
+        "consumption": 2603.85,
+        "supply": 2650.03,
+        "predicted": 2500.61,
+        "temperature": 18.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-28",
+        "consumption": 2500.61,
+        "supply": 2557.56,
+        "predicted": 2503.38,
+        "temperature": 17.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-29",
+        "consumption": 2503.38,
+        "supply": 2571.83,
+        "predicted": 2524.05,
+        "temperature": 18.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-30",
+        "consumption": 2524.05,
+        "supply": 2610.97,
+        "predicted": 2496.85,
+        "temperature": 16.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-01",
+        "consumption": 2496.85,
+        "supply": 2548.24,
+        "predicted": 2520.73,
+        "temperature": 16.5,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-12-02",
+        "consumption": 2520.73,
+        "supply": 2576.07,
+        "predicted": 2529.44,
+        "temperature": 14.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-03",
+        "consumption": 2529.44,
+        "supply": 2545.1,
+        "predicted": 2470.76,
+        "temperature": 16.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-04",
+        "consumption": 2470.76,
+        "supply": 2478.49,
+        "predicted": 2558.48,
+        "temperature": 16.0,
+        "rainfall": 3.0
+      },
+      {
+        "date": "2026-12-05",
+        "consumption": 2558.48,
+        "supply": 2575.29,
+        "predicted": 2485.77,
+        "temperature": 15.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-06",
+        "consumption": 2485.77,
+        "supply": 2549.29,
+        "predicted": 2557.86,
+        "temperature": 16.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-07",
+        "consumption": 2557.86,
+        "supply": 2612.44,
+        "predicted": 2524.57,
+        "temperature": 14.8,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-12-08",
+        "consumption": 2524.57,
+        "supply": 2554.08,
+        "predicted": 2561.44,
+        "temperature": 16.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-09",
+        "consumption": 2561.44,
+        "supply": 2608.6,
+        "predicted": 2524.06,
+        "temperature": 13.7,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-10",
+        "consumption": 2524.06,
+        "supply": 2564.59,
+        "predicted": 2548.31,
+        "temperature": 14.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-11",
+        "consumption": 2548.31,
+        "supply": 2616.79,
+        "predicted": 2497.84,
+        "temperature": 15.7,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-12",
+        "consumption": 2497.84,
+        "supply": 2574.79,
+        "predicted": 2461.83,
+        "temperature": 14.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-13",
+        "consumption": 2461.83,
+        "supply": 2483.78,
+        "predicted": 2491.28,
+        "temperature": 21.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-14",
+        "consumption": 2491.28,
+        "supply": 2545.09,
+        "predicted": 2577.77,
+        "temperature": 17.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-15",
+        "consumption": 2577.77,
+        "supply": 2646.74,
+        "predicted": 2496.85,
+        "temperature": 17.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-16",
+        "consumption": 2496.85,
+        "supply": 2540.29,
+        "predicted": 2521.79,
+        "temperature": 16.1,
+        "rainfall": 2.0
+      },
+      {
+        "date": "2026-12-17",
+        "consumption": 2521.79,
+        "supply": 2580.82,
+        "predicted": 2544.45,
+        "temperature": 17.7,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-18",
+        "consumption": 2544.45,
+        "supply": 2597.42,
+        "predicted": 2487.47,
+        "temperature": 15.2,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-12-19",
+        "consumption": 2487.47,
+        "supply": 2532.08,
+        "predicted": 2506.41,
+        "temperature": 15.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-20",
+        "consumption": 2506.41,
+        "supply": 2575.53,
+        "predicted": 2546.22,
+        "temperature": 17.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-21",
+        "consumption": 2546.22,
+        "supply": 2637.37,
+        "predicted": 2557.81,
+        "temperature": 14.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-22",
+        "consumption": 2557.81,
+        "supply": 2592.56,
+        "predicted": 2552.68,
+        "temperature": 13.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-23",
+        "consumption": 2552.68,
+        "supply": 2591.69,
+        "predicted": 2462.82,
+        "temperature": 14.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-24",
+        "consumption": 2462.82,
+        "supply": 2519.21,
+        "predicted": 2518.64,
+        "temperature": 13.4,
+        "rainfall": 3.0
+      },
+      {
+        "date": "2026-12-25",
+        "consumption": 2518.64,
+        "supply": 2580.07,
+        "predicted": 2458.33,
+        "temperature": 12.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-26",
+        "consumption": 2458.33,
+        "supply": 2537.71,
+        "predicted": 2432.62,
+        "temperature": 12.1,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-27",
+        "consumption": 2432.62,
+        "supply": 2465.68,
+        "predicted": 2502.43,
+        "temperature": 13.0,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-28",
+        "consumption": 2502.43,
+        "supply": 2566.54,
+        "predicted": 2521.7,
+        "temperature": 16.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-29",
+        "consumption": 2521.7,
+        "supply": 2572.82,
+        "predicted": 2582.7,
+        "temperature": 12.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-30",
+        "consumption": 2582.7,
+        "supply": 2676.93,
+        "predicted": 2532.54,
+        "temperature": 14.8,
+        "rainfall": 0.0
+      }
+    ],
+    "weekly_trends": [
+      {
+        "week_start": "2025-12-29",
+        "avg_consumption": 2501.1,
+        "total_consumption": 7503.29,
+        "peak_consumption": 2513.99,
+        "avg_supply": 2554.4
+      },
+      {
+        "week_start": "2026-01-05",
+        "avg_consumption": 2550.42,
+        "total_consumption": 17852.95,
+        "peak_consumption": 2593.63,
+        "avg_supply": 2600.69
+      },
+      {
+        "week_start": "2026-01-12",
+        "avg_consumption": 2548.03,
+        "total_consumption": 17836.21,
+        "peak_consumption": 2630.05,
+        "avg_supply": 2586.34
+      },
+      {
+        "week_start": "2026-01-19",
+        "avg_consumption": 2551.59,
+        "total_consumption": 17861.1,
+        "peak_consumption": 2586.85,
+        "avg_supply": 2592.16
+      },
+      {
+        "week_start": "2026-01-26",
+        "avg_consumption": 2584.38,
+        "total_consumption": 18090.68,
+        "peak_consumption": 2661.46,
+        "avg_supply": 2639.28
+      },
+      {
+        "week_start": "2026-02-02",
+        "avg_consumption": 2610.77,
+        "total_consumption": 18275.39,
+        "peak_consumption": 2665.08,
+        "avg_supply": 2672.58
+      },
+      {
+        "week_start": "2026-02-09",
+        "avg_consumption": 2631.72,
+        "total_consumption": 18422.07,
+        "peak_consumption": 2679.3,
+        "avg_supply": 2680.82
+      },
+      {
+        "week_start": "2026-02-16",
+        "avg_consumption": 2685.2,
+        "total_consumption": 18796.39,
+        "peak_consumption": 2712.05,
+        "avg_supply": 2741.9
+      },
+      {
+        "week_start": "2026-02-23",
+        "avg_consumption": 2712.54,
+        "total_consumption": 18987.76,
+        "peak_consumption": 2769.63,
+        "avg_supply": 2769.99
+      },
+      {
+        "week_start": "2026-03-02",
+        "avg_consumption": 2733.43,
+        "total_consumption": 19134.01,
+        "peak_consumption": 2778.39,
+        "avg_supply": 2803.99
+      },
+      {
+        "week_start": "2026-03-09",
+        "avg_consumption": 2769.37,
+        "total_consumption": 19385.62,
+        "peak_consumption": 2823.87,
+        "avg_supply": 2812.42
+      },
+      {
+        "week_start": "2026-03-16",
+        "avg_consumption": 2804.96,
+        "total_consumption": 19634.7,
+        "peak_consumption": 2824.74,
+        "avg_supply": 2865.9
+      },
+      {
+        "week_start": "2026-03-23",
+        "avg_consumption": 2832.99,
+        "total_consumption": 19830.95,
+        "peak_consumption": 2902.03,
+        "avg_supply": 2898.58
+      },
+      {
+        "week_start": "2026-03-30",
+        "avg_consumption": 2906.78,
+        "total_consumption": 20347.45,
+        "peak_consumption": 2949.19,
+        "avg_supply": 2957.65
+      },
+      {
+        "week_start": "2026-04-06",
+        "avg_consumption": 2900.64,
+        "total_consumption": 20304.45,
+        "peak_consumption": 2967.77,
+        "avg_supply": 2957.58
+      },
+      {
+        "week_start": "2026-04-13",
+        "avg_consumption": 2976.68,
+        "total_consumption": 20836.79,
+        "peak_consumption": 3081.39,
+        "avg_supply": 3028.3
+      },
+      {
+        "week_start": "2026-04-20",
+        "avg_consumption": 3099.29,
+        "total_consumption": 21695.06,
+        "peak_consumption": 3238.2,
+        "avg_supply": 3190.74
+      },
+      {
+        "week_start": "2026-04-27",
+        "avg_consumption": 3131.41,
+        "total_consumption": 21919.84,
+        "peak_consumption": 3205.63,
+        "avg_supply": 3198.84
+      },
+      {
+        "week_start": "2026-05-04",
+        "avg_consumption": 3208.65,
+        "total_consumption": 22460.54,
+        "peak_consumption": 3366.48,
+        "avg_supply": 3289.74
+      },
+      {
+        "week_start": "2026-05-11",
+        "avg_consumption": 3197.76,
+        "total_consumption": 22384.35,
+        "peak_consumption": 3296.72,
+        "avg_supply": 3271.91
+      },
+      {
+        "week_start": "2026-05-18",
+        "avg_consumption": 3292.95,
+        "total_consumption": 23050.64,
+        "peak_consumption": 3480.93,
+        "avg_supply": 3374.39
+      },
+      {
+        "week_start": "2026-05-25",
+        "avg_consumption": 3284.09,
+        "total_consumption": 22988.6,
+        "peak_consumption": 3466.38,
+        "avg_supply": 3345.36
+      },
+      {
+        "week_start": "2026-06-01",
+        "avg_consumption": 3357.64,
+        "total_consumption": 23503.51,
+        "peak_consumption": 3425.94,
+        "avg_supply": 3411.98
+      },
+      {
+        "week_start": "2026-06-08",
+        "avg_consumption": 3400.96,
+        "total_consumption": 23806.73,
+        "peak_consumption": 3522.26,
+        "avg_supply": 3472.74
+      },
+      {
+        "week_start": "2026-06-15",
+        "avg_consumption": 3299.94,
+        "total_consumption": 23099.55,
+        "peak_consumption": 3468.26,
+        "avg_supply": 3376.23
+      },
+      {
+        "week_start": "2026-06-22",
+        "avg_consumption": 3163.92,
+        "total_consumption": 22147.41,
+        "peak_consumption": 3372.54,
+        "avg_supply": 3200.98
+      },
+      {
+        "week_start": "2026-06-29",
+        "avg_consumption": 3211.52,
+        "total_consumption": 22480.66,
+        "peak_consumption": 3476.3,
+        "avg_supply": 3282.71
+      },
+      {
+        "week_start": "2026-07-06",
+        "avg_consumption": 3230.54,
+        "total_consumption": 22613.81,
+        "peak_consumption": 3418.5,
+        "avg_supply": 3305.32
+      },
+      {
+        "week_start": "2026-07-13",
+        "avg_consumption": 3295.71,
+        "total_consumption": 23069.96,
+        "peak_consumption": 3449.9,
+        "avg_supply": 3356.46
+      },
+      {
+        "week_start": "2026-07-20",
+        "avg_consumption": 3123.47,
+        "total_consumption": 21864.29,
+        "peak_consumption": 3521.31,
+        "avg_supply": 3183.47
+      },
+      {
+        "week_start": "2026-07-27",
+        "avg_consumption": 3139.39,
+        "total_consumption": 21975.74,
+        "peak_consumption": 3302.95,
+        "avg_supply": 3208.02
+      },
+      {
+        "week_start": "2026-08-03",
+        "avg_consumption": 3175.95,
+        "total_consumption": 22231.66,
+        "peak_consumption": 3409.69,
+        "avg_supply": 3246.13
+      },
+      {
+        "week_start": "2026-08-10",
+        "avg_consumption": 3131.64,
+        "total_consumption": 21921.49,
+        "peak_consumption": 3359.41,
+        "avg_supply": 3201.91
+      },
+      {
+        "week_start": "2026-08-17",
+        "avg_consumption": 3062.04,
+        "total_consumption": 21434.25,
+        "peak_consumption": 3168.0,
+        "avg_supply": 3112.94
+      },
+      {
+        "week_start": "2026-08-24",
+        "avg_consumption": 2993.54,
+        "total_consumption": 20954.78,
+        "peak_consumption": 3206.23,
+        "avg_supply": 3058.25
+      },
+      {
+        "week_start": "2026-08-31",
+        "avg_consumption": 2951.1,
+        "total_consumption": 20657.68,
+        "peak_consumption": 3176.14,
+        "avg_supply": 3017.75
+      },
+      {
+        "week_start": "2026-09-07",
+        "avg_consumption": 2827.68,
+        "total_consumption": 19793.79,
+        "peak_consumption": 3112.58,
+        "avg_supply": 2873.3
+      },
+      {
+        "week_start": "2026-09-14",
+        "avg_consumption": 2724.15,
+        "total_consumption": 19069.06,
+        "peak_consumption": 3054.86,
+        "avg_supply": 2767.93
+      },
+      {
+        "week_start": "2026-09-21",
+        "avg_consumption": 2583.49,
+        "total_consumption": 18084.41,
+        "peak_consumption": 2852.12,
+        "avg_supply": 2617.34
+      },
+      {
+        "week_start": "2026-09-28",
+        "avg_consumption": 2659.65,
+        "total_consumption": 18617.53,
+        "peak_consumption": 2756.69,
+        "avg_supply": 2713.71
+      },
+      {
+        "week_start": "2026-10-05",
+        "avg_consumption": 2811.88,
+        "total_consumption": 19683.13,
+        "peak_consumption": 2940.13,
+        "avg_supply": 2867.73
+      },
+      {
+        "week_start": "2026-10-12",
+        "avg_consumption": 2704.32,
+        "total_consumption": 18930.24,
+        "peak_consumption": 2763.99,
+        "avg_supply": 2751.07
+      },
+      {
+        "week_start": "2026-10-19",
+        "avg_consumption": 2667.87,
+        "total_consumption": 18675.08,
+        "peak_consumption": 2707.64,
+        "avg_supply": 2733.26
+      },
+      {
+        "week_start": "2026-10-26",
+        "avg_consumption": 2621.13,
+        "total_consumption": 18347.9,
+        "peak_consumption": 2657.29,
+        "avg_supply": 2684.84
+      },
+      {
+        "week_start": "2026-11-02",
+        "avg_consumption": 2603.91,
+        "total_consumption": 18227.36,
+        "peak_consumption": 2667.07,
+        "avg_supply": 2659.77
+      },
+      {
+        "week_start": "2026-11-09",
+        "avg_consumption": 2559.63,
+        "total_consumption": 17917.43,
+        "peak_consumption": 2617.28,
+        "avg_supply": 2615.34
+      },
+      {
+        "week_start": "2026-11-16",
+        "avg_consumption": 2541.73,
+        "total_consumption": 17792.09,
+        "peak_consumption": 2592.77,
+        "avg_supply": 2600.79
+      },
+      {
+        "week_start": "2026-11-23",
+        "avg_consumption": 2543.09,
+        "total_consumption": 17801.61,
+        "peak_consumption": 2606.89,
+        "avg_supply": 2597.2
+      },
+      {
+        "week_start": "2026-11-30",
+        "avg_consumption": 2512.3,
+        "total_consumption": 17586.08,
+        "peak_consumption": 2558.48,
+        "avg_supply": 2554.78
+      },
+      {
+        "week_start": "2026-12-07",
+        "avg_consumption": 2525.13,
+        "total_consumption": 17675.91,
+        "peak_consumption": 2561.44,
+        "avg_supply": 2573.58
+      },
+      {
+        "week_start": "2026-12-14",
+        "avg_consumption": 2518.0,
+        "total_consumption": 17626.02,
+        "peak_consumption": 2577.77,
+        "avg_supply": 2574.0
+      },
+      {
+        "week_start": "2026-12-21",
+        "avg_consumption": 2504.16,
+        "total_consumption": 17529.12,
+        "peak_consumption": 2557.81,
+        "avg_supply": 2560.61
+      },
+      {
+        "week_start": "2026-12-28",
+        "avg_consumption": 2535.61,
+        "total_consumption": 7606.83,
+        "peak_consumption": 2582.7,
+        "avg_supply": 2605.43
+      }
+    ],
+    "monthly_trends": [
+      {
+        "month": "2026-01",
+        "avg_consumption": 2553.3,
+        "total_consumption": 76599.09,
+        "peak_consumption": 2661.46,
+        "avg_supply": 2601.14,
+        "avg_temp": 15.1
+      },
+      {
+        "month": "2026-02",
+        "avg_consumption": 2655.03,
+        "total_consumption": 74340.96,
+        "peak_consumption": 2769.63,
+        "avg_supply": 2709.72,
+        "avg_temp": 17.1
+      },
+      {
+        "month": "2026-03",
+        "avg_consumption": 2788.0,
+        "total_consumption": 86428.1,
+        "peak_consumption": 2902.03,
+        "avg_supply": 2846.76,
+        "avg_temp": 20.6
+      },
+      {
+        "month": "2026-04",
+        "avg_consumption": 2997.48,
+        "total_consumption": 89924.29,
+        "peak_consumption": 3238.2,
+        "avg_supply": 3064.58,
+        "avg_temp": 26.3
+      },
+      {
+        "month": "2026-05",
+        "avg_consumption": 3235.69,
+        "total_consumption": 100306.4,
+        "peak_consumption": 3480.93,
+        "avg_supply": 3307.22,
+        "avg_temp": 30.7
+      },
+      {
+        "month": "2026-06",
+        "avg_consumption": 3306.82,
+        "total_consumption": 99204.71,
+        "peak_consumption": 3522.26,
+        "avg_supply": 3368.09,
+        "avg_temp": 33.8
+      },
+      {
+        "month": "2026-07",
+        "avg_consumption": 3201.52,
+        "total_consumption": 99247.0,
+        "peak_consumption": 3521.31,
+        "avg_supply": 3269.53,
+        "avg_temp": 34.9
+      },
+      {
+        "month": "2026-08",
+        "avg_consumption": 3075.92,
+        "total_consumption": 95353.58,
+        "peak_consumption": 3409.69,
+        "avg_supply": 3138.82,
+        "avg_temp": 33.3
+      },
+      {
+        "month": "2026-09",
+        "avg_consumption": 2764.22,
+        "total_consumption": 82926.48,
+        "peak_consumption": 3176.14,
+        "avg_supply": 2813.24,
+        "avg_temp": 29.4
+      },
+      {
+        "month": "2026-10",
+        "avg_consumption": 2698.96,
+        "total_consumption": 83667.71,
+        "peak_consumption": 2940.13,
+        "avg_supply": 2754.34,
+        "avg_temp": 24.1
+      },
+      {
+        "month": "2026-11",
+        "avg_consumption": 2560.86,
+        "total_consumption": 76825.72,
+        "peak_consumption": 2667.07,
+        "avg_supply": 2618.27,
+        "avg_temp": 18.3
+      },
+      {
+        "month": "2026-12",
+        "avg_consumption": 2516.66,
+        "total_consumption": 75499.91,
+        "peak_consumption": 2582.7,
+        "avg_supply": 2568.2,
+        "avg_temp": 15.3
+      }
+    ],
+    "day_of_week_analysis": [
+      {
+        "day": "Monday",
+        "mean_consumption": 2887.58,
+        "max_consumption": 3521.31,
+        "is_weekend": false
+      },
+      {
+        "day": "Tuesday",
+        "mean_consumption": 2897.48,
+        "max_consumption": 3522.26,
+        "is_weekend": false
+      },
+      {
+        "day": "Wednesday",
+        "mean_consumption": 2858.84,
+        "max_consumption": 3425.94,
+        "is_weekend": false
+      },
+      {
+        "day": "Thursday",
+        "mean_consumption": 2885.34,
+        "max_consumption": 3449.9,
+        "is_weekend": false
+      },
+      {
+        "day": "Friday",
+        "mean_consumption": 2883.18,
+        "max_consumption": 3476.3,
+        "is_weekend": false
+      },
+      {
+        "day": "Saturday",
+        "mean_consumption": 2833.05,
+        "max_consumption": 3418.5,
+        "is_weekend": true
+      },
+      {
+        "day": "Sunday",
+        "mean_consumption": 2816.25,
+        "max_consumption": 3471.67,
+        "is_weekend": true
+      }
+    ],
+    "peak_demand_records": [
+      {
+        "date": "2026-06-09",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 423.23,
+        "supply_mld": 446.53,
+        "temperature": 36.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-06-16",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 416.91,
+        "supply_mld": 432.07,
+        "temperature": 35.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-07-16",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 412.51,
+        "supply_mld": 405.2,
+        "temperature": 36.4,
+        "rainfall": 0.9
+      },
+      {
+        "date": "2026-06-14",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 406.88,
+        "supply_mld": 408.66,
+        "temperature": 37.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-07-21",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 406.85,
+        "supply_mld": 427.84,
+        "temperature": 38.0,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-07-20",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 406.53,
+        "supply_mld": 385.12,
+        "temperature": 38.7,
+        "rainfall": 0.9
+      },
+      {
+        "date": "2026-06-13",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 404.48,
+        "supply_mld": 397.0,
+        "temperature": 34.2,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-05-18",
+        "zone": "Zone A",
+        "sector": "Agriculture",
+        "consumption_mld": 400.18,
+        "supply_mld": 403.26,
+        "temperature": 36.0,
+        "rainfall": 0.0
+      }
+    ],
+    "lowest_demand_records": [
+      {
+        "date": "2026-09-27",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 23.02,
+        "supply_mld": 22.86,
+        "temperature": 25.9,
+        "rainfall": 57.9
+      },
+      {
+        "date": "2026-09-26",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 23.28,
+        "supply_mld": 22.67,
+        "temperature": 26.5,
+        "rainfall": 31.0
+      },
+      {
+        "date": "2026-12-20",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 23.76,
+        "supply_mld": 23.32,
+        "temperature": 17.3,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-12",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 24.94,
+        "supply_mld": 25.66,
+        "temperature": 14.9,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-12-05",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 25.21,
+        "supply_mld": 25.21,
+        "temperature": 15.8,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-11-01",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 25.4,
+        "supply_mld": 26.35,
+        "temperature": 19.4,
+        "rainfall": 0.0
+      },
+      {
+        "date": "2026-01-11",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 25.65,
+        "supply_mld": 28.47,
+        "temperature": 14.6,
+        "rainfall": 1.0
+      },
+      {
+        "date": "2026-01-10",
+        "zone": "Zone E",
+        "sector": "Institutional",
+        "consumption_mld": 25.75,
+        "supply_mld": 28.59,
+        "temperature": 15.0,
+        "rainfall": 0.0
+      }
+    ],
+    "distribution_histogram": [
+      {
+        "range": "23 - 56 MLD",
+        "count": 1889,
+        "percentage": 20.8
+      },
+      {
+        "range": "56 - 90 MLD",
+        "count": 2490,
+        "percentage": 27.4
+      },
+      {
+        "range": "90 - 123 MLD",
+        "count": 1651,
+        "percentage": 18.2
+      },
+      {
+        "range": "123 - 156 MLD",
+        "count": 926,
+        "percentage": 10.2
+      },
+      {
+        "range": "156 - 190 MLD",
+        "count": 726,
+        "percentage": 8.0
+      },
+      {
+        "range": "190 - 223 MLD",
+        "count": 551,
+        "percentage": 6.1
+      },
+      {
+        "range": "223 - 256 MLD",
+        "count": 312,
+        "percentage": 3.4
+      },
+      {
+        "range": "256 - 290 MLD",
+        "count": 231,
+        "percentage": 2.5
+      },
+      {
+        "range": "290 - 323 MLD",
+        "count": 145,
+        "percentage": 1.6
+      },
+      {
+        "range": "323 - 357 MLD",
+        "count": 77,
+        "percentage": 0.8
+      },
+      {
+        "range": "357 - 390 MLD",
+        "count": 56,
+        "percentage": 0.6
+      },
+      {
+        "range": "390 - 423 MLD",
+        "count": 21,
+        "percentage": 0.2
+      }
+    ],
+    "summary_metrics": {
+      "mean_daily_consumption": 2865.91,
+      "median_daily_consumption": 2795.0,
+      "std_daily_consumption": 304.57,
+      "max_daily_consumption": 3522.26,
+      "min_daily_consumption": 2150.2,
+      "total_records_analyzed": 9075
+    }
+  },
+  "zones": {
+    "zones": [
+      {
+        "zone": "Zone A",
+        "population": 50000,
+        "total_consumption_mld": 293765.43,
+        "total_supply_mld": 299590.32,
+        "avg_consumption_mld": 161.85,
+        "avg_supply_mld": 165.06,
+        "avg_predicted_demand_mld": 161.86,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.1,
+        "surplus_deficit_mld": 5824.89,
+        "liters_per_capita_daily": 3237.1,
+        "two_week_trend_pct": -1.35
+      },
+      {
+        "zone": "Zone B",
+        "population": 42000,
+        "total_consumption_mld": 246743.12,
+        "total_supply_mld": 251912.48,
+        "avg_consumption_mld": 135.95,
+        "avg_supply_mld": 138.79,
+        "avg_predicted_demand_mld": 135.95,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 97.9,
+        "surplus_deficit_mld": 5169.36,
+        "liters_per_capita_daily": 3236.8,
+        "two_week_trend_pct": 0.67
+      },
+      {
+        "zone": "Zone C",
+        "population": 35000,
+        "total_consumption_mld": 205683.6,
+        "total_supply_mld": 209911.2,
+        "avg_consumption_mld": 113.32,
+        "avg_supply_mld": 115.65,
+        "avg_predicted_demand_mld": 113.33,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.0,
+        "surplus_deficit_mld": 4227.6,
+        "liters_per_capita_daily": 3237.8,
+        "two_week_trend_pct": 0.25
+      },
+      {
+        "zone": "Zone D",
+        "population": 28000,
+        "total_consumption_mld": 164708.36,
+        "total_supply_mld": 168272.7,
+        "avg_consumption_mld": 90.75,
+        "avg_supply_mld": 92.71,
+        "avg_predicted_demand_mld": 90.75,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 97.9,
+        "surplus_deficit_mld": 3564.34,
+        "liters_per_capita_daily": 3241.0,
+        "two_week_trend_pct": 0.25
+      },
+      {
+        "zone": "Zone E",
+        "population": 22000,
+        "total_consumption_mld": 129423.44,
+        "total_supply_mld": 132008.02,
+        "avg_consumption_mld": 71.31,
+        "avg_supply_mld": 72.73,
+        "avg_predicted_demand_mld": 71.31,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.0,
+        "surplus_deficit_mld": 2584.58,
+        "liters_per_capita_daily": 3241.3,
+        "two_week_trend_pct": -0.98
+      }
+    ],
+    "high_demand_zones_identified": [
+      "Zone A",
+      "Zone B",
+      "Zone C",
+      "Zone D",
+      "Zone E"
+    ],
+    "threshold_documentation": {
+      "metrics_evaluated": [
+        "Consumption to Water Supply Allocation Ratio (MLD)",
+        "Average Reservoir Level Percent (%)",
+        "14-Day Demand Trend Acceleration (%)"
+      ],
+      "threshold_rules": [
+        {
+          "status": "NORMAL",
+          "condition": "Consumption < 85% of allocated supply AND Reservoir \u2265 50%",
+          "implication": "Safe operational margin with ample distribution cushion."
+        },
+        {
+          "status": "MODERATE",
+          "condition": "Consumption between 85% and 95% of allocated supply",
+          "implication": "Standard peak operating threshold; maintain routine telemetry."
+        },
+        {
+          "status": "HIGH",
+          "condition": "Consumption between 95% and 102% of supply OR Reservoir between 35%-50%",
+          "implication": "High-demand stress. Reallocation valve controls recommended."
+        },
+        {
+          "status": "CRITICAL",
+          "condition": "Consumption > 102% of supply (deficit) OR Reservoir < 35%",
+          "implication": "Deficit breach. Emergency inter-zone pumping required immediately."
+        }
+      ]
+    },
+    "zone_comparison_metrics": [
+      {
+        "zone": "Zone A",
+        "population": 50000,
+        "total_consumption_mld": 293765.43,
+        "total_supply_mld": 299590.32,
+        "avg_consumption_mld": 161.85,
+        "avg_supply_mld": 165.06,
+        "avg_predicted_demand_mld": 161.86,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.1,
+        "surplus_deficit_mld": 5824.89,
+        "liters_per_capita_daily": 3237.1,
+        "two_week_trend_pct": -1.35
+      },
+      {
+        "zone": "Zone B",
+        "population": 42000,
+        "total_consumption_mld": 246743.12,
+        "total_supply_mld": 251912.48,
+        "avg_consumption_mld": 135.95,
+        "avg_supply_mld": 138.79,
+        "avg_predicted_demand_mld": 135.95,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 97.9,
+        "surplus_deficit_mld": 5169.36,
+        "liters_per_capita_daily": 3236.8,
+        "two_week_trend_pct": 0.67
+      },
+      {
+        "zone": "Zone C",
+        "population": 35000,
+        "total_consumption_mld": 205683.6,
+        "total_supply_mld": 209911.2,
+        "avg_consumption_mld": 113.32,
+        "avg_supply_mld": 115.65,
+        "avg_predicted_demand_mld": 113.33,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.0,
+        "surplus_deficit_mld": 4227.6,
+        "liters_per_capita_daily": 3237.8,
+        "two_week_trend_pct": 0.25
+      },
+      {
+        "zone": "Zone D",
+        "population": 28000,
+        "total_consumption_mld": 164708.36,
+        "total_supply_mld": 168272.7,
+        "avg_consumption_mld": 90.75,
+        "avg_supply_mld": 92.71,
+        "avg_predicted_demand_mld": 90.75,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 97.9,
+        "surplus_deficit_mld": 3564.34,
+        "liters_per_capita_daily": 3241.0,
+        "two_week_trend_pct": 0.25
+      },
+      {
+        "zone": "Zone E",
+        "population": 22000,
+        "total_consumption_mld": 129423.44,
+        "total_supply_mld": 132008.02,
+        "avg_consumption_mld": 71.31,
+        "avg_supply_mld": 72.73,
+        "avg_predicted_demand_mld": 71.31,
+        "avg_reservoir_level_percent": 70.4,
+        "demand_status": "HIGH",
+        "badge_color": "amber",
+        "utilization_ratio": 98.0,
+        "surplus_deficit_mld": 2584.58,
+        "liters_per_capita_daily": 3241.3,
+        "two_week_trend_pct": -0.98
+      }
+    ]
+  },
+  "sectors": {
+    "sectors_breakdown": [
+      {
+        "sector": "Agriculture",
+        "total_consumption_mld": 394878.16,
+        "avg_consumption_mld": 217.56,
+        "max_consumption_mld": 423.23,
+        "min_consumption_mld": 83.6,
+        "total_supply_mld": 402952.94,
+        "percentage_share": 37.96,
+        "avg_population": 35400,
+        "liters_per_capita_daily": 6145.9,
+        "demand_to_supply_ratio": 0.98
+      },
+      {
+        "sector": "Industrial",
+        "total_consumption_mld": 260838.16,
+        "avg_consumption_mld": 143.71,
+        "max_consumption_mld": 244.33,
+        "min_consumption_mld": 72.47,
+        "total_supply_mld": 266288.07,
+        "percentage_share": 25.07,
+        "avg_population": 35400,
+        "liters_per_capita_daily": 4059.7,
+        "demand_to_supply_ratio": 0.98
+      },
+      {
+        "sector": "Residential",
+        "total_consumption_mld": 162906.5,
+        "avg_consumption_mld": 89.76,
+        "max_consumption_mld": 157.29,
+        "min_consumption_mld": 45.19,
+        "total_supply_mld": 166082.52,
+        "percentage_share": 15.66,
+        "avg_population": 35400,
+        "liters_per_capita_daily": 2535.5,
+        "demand_to_supply_ratio": 0.981
+      },
+      {
+        "sector": "Commercial",
+        "total_consumption_mld": 127342.18,
+        "avg_consumption_mld": 70.16,
+        "max_consumption_mld": 121.65,
+        "min_consumption_mld": 34.16,
+        "total_supply_mld": 130106.59,
+        "percentage_share": 12.24,
+        "avg_population": 35400,
+        "liters_per_capita_daily": 1981.9,
+        "demand_to_supply_ratio": 0.979
+      },
+      {
+        "sector": "Institutional",
+        "total_consumption_mld": 94358.95,
+        "avg_consumption_mld": 51.99,
+        "max_consumption_mld": 91.16,
+        "min_consumption_mld": 23.02,
+        "total_supply_mld": 96264.6,
+        "percentage_share": 9.07,
+        "avg_population": 35400,
+        "liters_per_capita_daily": 1468.6,
+        "demand_to_supply_ratio": 0.98
+      }
+    ],
+    "highest_consuming_sector": "Agriculture",
+    "lowest_consuming_sector": "Institutional",
+    "daily_sector_trends": [
+      {
+        "date": "2026-12-01",
+        "Residential": 405.36,
+        "Commercial": 319.65,
+        "Industrial": 657.0,
+        "Agriculture": 868.76,
+        "Institutional": 246.08
+      },
+      {
+        "date": "2026-12-02",
+        "Residential": 411.67,
+        "Commercial": 321.03,
+        "Industrial": 654.58,
+        "Agriculture": 893.11,
+        "Institutional": 240.34
+      },
+      {
+        "date": "2026-12-03",
+        "Residential": 411.63,
+        "Commercial": 323.19,
+        "Industrial": 650.25,
+        "Agriculture": 901.82,
+        "Institutional": 242.55
+      },
+      {
+        "date": "2026-12-04",
+        "Residential": 405.69,
+        "Commercial": 328.27,
+        "Industrial": 651.5,
+        "Agriculture": 844.63,
+        "Institutional": 240.67
+      },
+      {
+        "date": "2026-12-05",
+        "Residential": 418.76,
+        "Commercial": 302.43,
+        "Industrial": 681.31,
+        "Agriculture": 946.33,
+        "Institutional": 209.65
+      },
+      {
+        "date": "2026-12-06",
+        "Residential": 416.99,
+        "Commercial": 291.69,
+        "Industrial": 650.74,
+        "Agriculture": 914.96,
+        "Institutional": 211.39
+      },
+      {
+        "date": "2026-12-07",
+        "Residential": 411.09,
+        "Commercial": 331.58,
+        "Industrial": 655.01,
+        "Agriculture": 920.95,
+        "Institutional": 239.23
+      },
+      {
+        "date": "2026-12-08",
+        "Residential": 395.85,
+        "Commercial": 334.35,
+        "Industrial": 666.23,
+        "Agriculture": 885.74,
+        "Institutional": 242.4
+      },
+      {
+        "date": "2026-12-09",
+        "Residential": 413.79,
+        "Commercial": 340.17,
+        "Industrial": 640.19,
+        "Agriculture": 933.2,
+        "Institutional": 234.09
+      },
+      {
+        "date": "2026-12-10",
+        "Residential": 410.55,
+        "Commercial": 315.51,
+        "Industrial": 658.5,
+        "Agriculture": 897.97,
+        "Institutional": 241.53
+      },
+      {
+        "date": "2026-12-11",
+        "Residential": 416.9,
+        "Commercial": 325.0,
+        "Industrial": 652.71,
+        "Agriculture": 906.48,
+        "Institutional": 247.22
+      },
+      {
+        "date": "2026-12-12",
+        "Residential": 417.72,
+        "Commercial": 292.41,
+        "Industrial": 638.09,
+        "Agriculture": 940.14,
+        "Institutional": 209.48
+      },
+      {
+        "date": "2026-12-13",
+        "Residential": 404.33,
+        "Commercial": 292.9,
+        "Industrial": 637.7,
+        "Agriculture": 915.07,
+        "Institutional": 211.83
+      },
+      {
+        "date": "2026-12-14",
+        "Residential": 403.47,
+        "Commercial": 329.56,
+        "Industrial": 642.89,
+        "Agriculture": 872.92,
+        "Institutional": 242.44
+      },
+      {
+        "date": "2026-12-15",
+        "Residential": 395.01,
+        "Commercial": 331.5,
+        "Industrial": 666.42,
+        "Agriculture": 940.22,
+        "Institutional": 244.62
+      },
+      {
+        "date": "2026-12-16",
+        "Residential": 410.65,
+        "Commercial": 325.94,
+        "Industrial": 613.98,
+        "Agriculture": 908.84,
+        "Institutional": 237.44
+      },
+      {
+        "date": "2026-12-17",
+        "Residential": 407.7,
+        "Commercial": 324.24,
+        "Industrial": 644.66,
+        "Agriculture": 906.92,
+        "Institutional": 238.27
+      },
+      {
+        "date": "2026-12-18",
+        "Residential": 410.64,
+        "Commercial": 334.46,
+        "Industrial": 650.98,
+        "Agriculture": 903.49,
+        "Institutional": 244.88
+      },
+      {
+        "date": "2026-12-19",
+        "Residential": 407.68,
+        "Commercial": 286.87,
+        "Industrial": 659.22,
+        "Agriculture": 922.94,
+        "Institutional": 210.76
+      },
+      {
+        "date": "2026-12-20",
+        "Residential": 413.74,
+        "Commercial": 290.84,
+        "Industrial": 671.97,
+        "Agriculture": 920.45,
+        "Institutional": 209.41
+      },
+      {
+        "date": "2026-12-21",
+        "Residential": 404.08,
+        "Commercial": 324.51,
+        "Industrial": 681.25,
+        "Agriculture": 901.79,
+        "Institutional": 234.59
+      },
+      {
+        "date": "2026-12-22",
+        "Residential": 408.21,
+        "Commercial": 331.19,
+        "Industrial": 656.85,
+        "Agriculture": 914.29,
+        "Institutional": 247.27
+      },
+      {
+        "date": "2026-12-23",
+        "Residential": 407.52,
+        "Commercial": 327.82,
+        "Industrial": 649.48,
+        "Agriculture": 915.43,
+        "Institutional": 252.43
+      },
+      {
+        "date": "2026-12-24",
+        "Residential": 402.33,
+        "Commercial": 326.96,
+        "Industrial": 647.12,
+        "Agriculture": 845.95,
+        "Institutional": 240.46
+      },
+      {
+        "date": "2026-12-25",
+        "Residential": 413.94,
+        "Commercial": 342.53,
+        "Industrial": 646.72,
+        "Agriculture": 873.55,
+        "Institutional": 241.9
+      },
+      {
+        "date": "2026-12-26",
+        "Residential": 405.06,
+        "Commercial": 292.97,
+        "Industrial": 652.25,
+        "Agriculture": 891.17,
+        "Institutional": 216.88
+      },
+      {
+        "date": "2026-12-27",
+        "Residential": 400.68,
+        "Commercial": 305.74,
+        "Industrial": 634.32,
+        "Agriculture": 879.81,
+        "Institutional": 212.07
+      },
+      {
+        "date": "2026-12-28",
+        "Residential": 430.05,
+        "Commercial": 319.33,
+        "Industrial": 649.86,
+        "Agriculture": 863.95,
+        "Institutional": 239.24
+      },
+      {
+        "date": "2026-12-29",
+        "Residential": 398.29,
+        "Commercial": 320.18,
+        "Industrial": 637.37,
+        "Agriculture": 919.76,
+        "Institutional": 246.1
+      },
+      {
+        "date": "2026-12-30",
+        "Residential": 411.71,
+        "Commercial": 326.61,
+        "Industrial": 649.24,
+        "Agriculture": 942.97,
+        "Institutional": 252.17
+      }
+    ],
+    "sector_per_capita": [
+      {
+        "sector": "Agriculture",
+        "liters_per_person_day": 6145.9,
+        "total_population": 35400
+      },
+      {
+        "sector": "Industrial",
+        "liters_per_person_day": 4059.7,
+        "total_population": 35400
+      },
+      {
+        "sector": "Residential",
+        "liters_per_person_day": 2535.5,
+        "total_population": 35400
+      },
+      {
+        "sector": "Commercial",
+        "liters_per_person_day": 1981.9,
+        "total_population": 35400
+      },
+      {
+        "sector": "Institutional",
+        "liters_per_person_day": 1468.6,
+        "total_population": 35400
+      }
+    ]
+  }
+}

@@ -79,9 +79,22 @@ export const ConsumptionAnalyticsPage: React.FC = () => {
       <div className="bg-rose-50 border border-rose-200 text-rose-800 p-6 rounded-2xl">
         <h3 className="font-bold text-base">Error Loading Consumption Analytics</h3>
         <p className="text-sm mt-1">{error}</p>
-        <button onClick={fetchAnalytics} className="mt-4 px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold">
-          Retry
-        </button>
+        <div className="flex gap-3 mt-4">
+          <button onClick={fetchAnalytics} className="px-4 py-2 bg-rose-600 text-white rounded-xl text-xs font-semibold hover:bg-rose-700 transition">
+            Retry Connection
+          </button>
+          <button
+            onClick={() => {
+              import('../services/fallbackService').then((m) => {
+                setData(m.fallbackService.getConsumptionAnalytics());
+                setError(null);
+              });
+            }}
+            className="px-4 py-2 bg-slate-800 text-white rounded-xl text-xs font-semibold hover:bg-slate-700 transition"
+          >
+            Load Municipal Baseline
+          </button>
+        </div>
       </div>
     );
   }
