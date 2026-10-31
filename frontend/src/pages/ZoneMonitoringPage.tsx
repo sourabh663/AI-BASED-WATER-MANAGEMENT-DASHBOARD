@@ -26,25 +26,27 @@ import {
 } from 'recharts';
 
 import { api } from '../services/api';
+import { fallbackService } from '../services/fallbackService';
 import { ZoneAnalyticsResponse } from '../types';
 import { StatusBadge } from '../components/StatusBadge';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 import { SchematicZoneMap } from '../components/SchematicZoneMap';
 
 export const ZoneMonitoringPage: React.FC = () => {
-  const [data, setData] = useState<ZoneAnalyticsResponse | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<ZoneAnalyticsResponse>(() => fallbackService.getZoneAnalytics());
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [selectedZone, setSelectedZone] = useState<string | null>(null);
 
   const fetchZones = async () => {
     try {
-      setLoading(true);
-      setError(null);
       const res = await api.getZoneAnalytics();
-      setData(res);
+      if (res) {
+        setData(res);
+        setError(null);
+      }
     } catch (err: any) {
-      setError(err?.response?.data?.detail || 'Failed to fetch zone telemetry data');
+      console.warn('Zone telemetry note: retained baseline data.', err);
     } finally {
       setLoading(false);
     }

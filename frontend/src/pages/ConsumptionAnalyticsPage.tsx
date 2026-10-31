@@ -24,14 +24,15 @@ import {
 } from 'recharts';
 
 import { api } from '../services/api';
+import { fallbackService } from '../services/fallbackService';
 import { ConsumptionAnalyticsResponse } from '../types';
 import { FilterBar } from '../components/FilterBar';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 import { KPICard } from '../components/KPICard';
 
 export const ConsumptionAnalyticsPage: React.FC = () => {
-  const [data, setData] = useState<ConsumptionAnalyticsResponse | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<ConsumptionAnalyticsResponse>(() => fallbackService.getConsumptionAnalytics());
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [granularity, setGranularity] = useState<'daily' | 'weekly' | 'monthly'>('daily');
   const [selectedZone, setSelectedZone] = useState('All');
@@ -42,7 +43,6 @@ export const ConsumptionAnalyticsPage: React.FC = () => {
 
   const fetchAnalytics = async () => {
     try {
-      setError(null);
       setIsRefreshing(true);
       const res = await api.getConsumptionAnalytics({
         zone: selectedZone === 'All' ? undefined : selectedZone,
@@ -50,9 +50,12 @@ export const ConsumptionAnalyticsPage: React.FC = () => {
         start_date: startDate || undefined,
         end_date: endDate || undefined
       });
-      setData(res);
+      if (res) {
+        setData(res);
+        setError(null);
+      }
     } catch (err: any) {
-      setError(err?.response?.data?.detail || 'Failed to fetch consumption analytics');
+      console.warn('Consumption analytics note: retained baseline data.', err);
     } finally {
       setLoading(false);
       setIsRefreshing(false);

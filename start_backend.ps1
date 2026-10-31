@@ -5,4 +5,4 @@ Write-Host "Docs: http://localhost:8000/docs" -ForegroundColor Green
 Write-Host "========================================================" -ForegroundColor Cyan
 
 $env:PYTHONPATH = "backend"
-python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000 --reload
+& 'C:\Users\soura\AppData\Local\Programs\Python\Python313\python.exe' -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload

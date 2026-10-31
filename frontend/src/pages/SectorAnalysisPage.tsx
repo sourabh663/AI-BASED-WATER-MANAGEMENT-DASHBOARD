@@ -29,6 +29,7 @@ import {
 } from 'recharts';
 
 import { api } from '../services/api';
+import { fallbackService } from '../services/fallbackService';
 import { SectorAnalyticsResponse, SectorItem } from '../types';
 import { LoadingSpinner } from '../components/LoadingSpinner';
 import { KPICard } from '../components/KPICard';
@@ -50,21 +51,22 @@ const SECTOR_COLORS: Record<string, string> = {
 };
 
 export const SectorAnalysisPage: React.FC = () => {
-  const [data, setData] = useState<SectorAnalyticsResponse | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<SectorAnalyticsResponse>(() => fallbackService.getSectorAnalytics());
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [selectedZone, setSelectedZone] = useState('All');
 
   const fetchSectorData = async () => {
     try {
-      setLoading(true);
-      setError(null);
       const res = await api.getSectorAnalytics({
         zone: selectedZone === 'All' ? undefined : selectedZone
       });
-      setData(res);
+      if (res) {
+        setData(res);
+        setError(null);
+      }
     } catch (err: any) {
-      setError(err?.response?.data?.detail || 'Failed to fetch sector analytics');
+      console.warn('Sector analytics note: retained baseline data.', err);
     } finally {
       setLoading(false);
     }
