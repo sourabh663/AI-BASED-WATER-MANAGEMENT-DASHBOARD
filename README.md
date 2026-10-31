@@ -12,6 +12,7 @@ A complete, production-grade, enterprise AI platform designed for municipal wate
 
 ## 👥 Project Engineering Team
 
+<<<<<<< HEAD
 1. **ANSHUL UPADHYAY** — Roll No. `1240439109`
 2. **SOURABH SINGH** — Roll No. `1240439446`
 3. **KHUSHI WALIA** — Roll No. `1240439227`
@@ -48,6 +49,13 @@ npm run dev
 - **Frontend Dashboard:** [http://localhost:5173](http://localhost:5173)
 
 ---
+=======
+1. **SOURABH SINGH** — Roll No. `1240439446`
+2. **ANSHUL UPADHYAY** — Roll No. `1240439109`
+2. **SOURABH SINGH** — Roll No. `1240439446`
+3. **KHUSHI WALIA** — Roll No. `1240439227`
+4. **AMREEN SHAKEEL ALVI** — Roll No. `1240439082
+>>>>>>> 107985d2ed736456f5bd7a3e0af7e9be27671ff5
 
 ## 📊 Dataset Specification
 
