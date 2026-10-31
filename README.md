@@ -12,42 +12,11 @@ A complete, production-grade, enterprise AI platform designed for municipal wate
 
 ## 👥 Project Engineering Team
 
-1. **ANSHUL UPADHYAY** — Roll No. `1240439109`
+1. **SOURABH SINGH** — Roll No. `1240439446`
+2. **ANSHUL UPADHYAY** — Roll No. `1240439109`
 2. **SOURABH SINGH** — Roll No. `1240439446`
 3. **KHUSHI WALIA** — Roll No. `1240439227`
-4. **AMREEN SHAKEEL ALVI** — Roll No. `1240439082`
-
----
-
-## 🚀 Quick Local Execution
-
-### Prerequisites
-- Python 3.10+ (tested on Python 3.13)
-- Node.js 18+ and npm (tested on Node.js v26.13 / npm 11.20)
-
-### 1. Start the Backend API (FastAPI)
-```powershell
-# From project root:
-.\start_backend.ps1
-# Or manually:
-$env:PYTHONPATH = "backend"
-python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000 --reload
-```
-- **Backend URL:** [http://localhost:8000](http://localhost:8000)
-- **Interactive Swagger Documentation:** [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Alternative ReDoc UI:** [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
-### 2. Start the Frontend Application (React + Vite)
-```powershell
-# From project root (new terminal window):
-.\start_frontend.ps1
-# Or manually:
-cd frontend
-npm run dev
-```
-- **Frontend Dashboard:** [http://localhost:5173](http://localhost:5173)
-
----
+4. **AMREEN SHAKEEL ALVI** — Roll No. `1240439082
 
 ## 📊 Dataset Specification
 
